@@ -1,0 +1,43 @@
+<yourmodname>
+
+
+<!-- Add comments to indictae what the code does. -->
+
+
+<!-- Most common xpath functions -->
+
+<append xpath="/recipes"></append>
+
+<prepend xpath="/items"></prepend>
+
+<set xpath="/quests"></set>
+
+<remove xpath="/item_modifiers"></remove>
+
+<setattribute xpath="/recipes/recipe[@name='']/property[@name='YYY']">xxx</setattribute>
+
+<setattribute xpath="/./.[starts-with(@name,'xxx')]/property[@name='YYY']" name="value">loreipsumFLTR</setattribute>
+
+<!-- add ends-with , contains, insertafter spelling? -->
+
+<!-- If mod not loaded -->
+<conditional>
+<if cond="mod_loaded('modname') == false">
+
+</if>
+</conditional>
+
+<!-- If mod loaded -->
+<conditional>
+<if cond="mod_loaded('modname')">
+
+</if>
+</conditional>
+
+
+<include>
+
+</include>
+
+</yourmodname>
+

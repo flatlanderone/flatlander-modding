@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="YourModName" /> <!-- no spaces -->
+	<DisplayName value="Your Mod Name" />
+	<Description value="What does your mod do." />
+	<Author value="your nick" />
+	<Version value="0.1.0.0" />
+	<Website value="your github profile link" />
+</xml>
