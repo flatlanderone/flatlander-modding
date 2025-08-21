@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="RestockOption" />
+		<DisplayName value="Restock Option" />
+		<Description value="Adds a restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption" />
+		<Author value="flatlander" />
+		<Version value="1.0" />
+</xml>
