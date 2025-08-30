@@ -10,5 +10,4 @@ Restock a trader's inventory without turning on dev tools.
 # Starting Trader
 
 Your starting trader is the closest trader in relation to your spawn point. Edit your spawnpoints.xml to spawn in a different biome.
-
-( )
+(https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/StartingTrader)
