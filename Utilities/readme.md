@@ -2,3 +2,10 @@
 
 Convert MD files to Nexusmods BBCode
 (https://miome.github.io/githubmd-to-nexusmodsbbcode/)
+
+# Restock Option
+Restock a trader's inventory without turning on dev tools.
+(https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/RestockOption)
+
+# Starting Trader
+
