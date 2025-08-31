@@ -18,7 +18,16 @@
 
 <setattribute xpath="/./.[starts-with(@name,'xxx')]/property[@name='YYY']" name="value">loreipsumFLTR</setattribute>
 
+
+
+
 <!-- add ends-with , contains, insertafter spelling? -->
+
+<!-- If RamblingManOverhaul mod not loaded -->
+<conditional>
+<if cond="mod_loaded('RamblingManOverhaul') == false">
+</if>
+</conditional>
 
 <!-- If mod not loaded -->
 <conditional>
