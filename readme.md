@@ -1,40 +1,32 @@
-# My Modlets
+# Flatlander's Utility Modlet Pack
 
-## Tester's Delight On Spawn
+The Modlet Pack contains my growing collection of modlets I use for development and testing.
 
-Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
+Latest version: https://www.nexusmods.com/7daystodie/mods/8769
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/TestersDelightOnSpawn
-
-## Bigger Crafting Resources Pack On Spawn
-
-Adds to inventory a more complete crafting bundle on first spawn. Make sure to have enough free inventory slots. See bigger_crafting_bundle.jpg in the Images folder.
-
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/BiggerCraftingResourcesPackOnSpawn
-
-## Restock Trader Inventory
-
-Adds an inventory restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption. See the screenshots in the images folder.
-
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/RestockTraderInventory
-
-## Any Starting Trader 
+## 1. Any Starting Trader 
 
 Your starting trader is the closest trader in relation to your spawn point. Edit your spawnpoints.xml to spawn in a different biome.
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/AnyStartingTrader
-
-## Any Starting Trader - No Desert
+## 2. Any Starting Trader - No Desert
 
 Your starting trader is the closest trader in relation to your spawn point, unless you spawn in the desert biome. In that case, you will be directed to the pine forest trader.
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/AnyStartingTraderNoDesert
+## 3. Bigger Crafting Resources Pack On Spawn
 
-## Dummy Mod To Test Conditionals
+Adds to inventory a more complete crafting bundle on first spawn. Make sure to have enough free inventory slots. See bigger_crafting_bundle.jpg in the Images folder.
+
+## 4. Dummy Mod To Test Conditionals
 
 Test conditional loading of mods. Replace DummyMod name value with the name of the mod that must be loaded for the coondition to be true or false.
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/DummyModToTestConditionals
+## 5. Restock Trader Inventory
+
+Adds an inventory restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption. See the screenshots in the images folder.
+
+## 6. Tester's Delight On Spawn
+
+Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
 
 # Third-party Modlets
 
