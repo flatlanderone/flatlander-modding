@@ -1,5 +1,9 @@
 # Flatlander's Utility Modlet Pack
 
+## About The Modlet Pack
+
+
+
 ## 1. Any Starting Trader 
 
 Your starting trader is the closest trader in relation to your spawn point. Edit your spawnpoints.xml to spawn in a different biome.
@@ -23,3 +27,9 @@ Adds an inventory restock option to all traders without entering dev mode. Based
 ## 6. Tester's Delight On Spawn
 
 Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
+
+# My profiles
+
+- **Nexus Mods**: https://next.nexusmods.com/profile/flatlanderone/mods?gameId=1059
+
+- **GitHub**: https://github.com/flatlanderone

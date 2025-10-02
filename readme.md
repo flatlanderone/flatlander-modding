@@ -10,13 +10,13 @@ https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/TestersD
 
 Adds to inventory a more complete crafting bundle on first spawn. Make sure to have enough free inventory slots. See bigger_crafting_bundle.jpg in the Images folder.
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/BiggerCraftingBundle
+https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/BiggerCraftingResourcesPackOnSpawn
 
 ## Restock Trader Inventory
 
 Adds an inventory restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption. See the screenshots in the images folder.
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/RestockOption
+https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/RestockTraderInventory
 
 ## Any Starting Trader 
 
@@ -34,7 +34,7 @@ https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/AnyStart
 
 Test conditional loading of mods. Replace DummyMod name value with the name of the mod that must be loaded for the coondition to be true or false.
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/Dummy%20Mod%20To%20Test%20Conditionals
+https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/DummyModToTestConditionals
 
 # Third-party Modlets
 
