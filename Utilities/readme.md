@@ -8,6 +8,12 @@ Your starting trader is the closest trader in relation to your spawn point. Edit
 
 
 # Third-party Utilities
+
 ## GitHub Markdown to Nexusmods BBCode converter
+
 Convert MD files to Nexusmods BBCode
 (https://miome.github.io/githubmd-to-nexusmodsbbcode/)
+
+## GitHub Wiki TOC generator
+
+https://ecotrust-canada.github.io/markdown-toc/
