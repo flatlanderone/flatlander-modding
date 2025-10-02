@@ -1,8 +1,8 @@
 # Flatlander's Utility Modlet Pack
 
-## About The Modlet Pack
+## About
 
-
+The Modlet Pack contains my growing collection of modlets I use for development and testing.
 
 ## 1. Any Starting Trader 
 
@@ -28,8 +28,24 @@ Adds an inventory restock option to all traders without entering dev mode. Based
 
 Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
 
-# My profiles
+# Bug reports and feature suggestions
 
-- **Nexus Mods**: https://next.nexusmods.com/profile/flatlanderone/mods?gameId=1059
+- [GitHub](https://github.com/flatlanderone/flatlander-releases/issues) (preferred).
 
-- **GitHub**: https://github.com/flatlanderone
+- This mod's page on Nexus Mods.
+
+# About this mod
+
+- **Author**: Flat Lander - [GitHub](https://github.com/flatlanderone) / [Nexus Mods](https://next.nexusmods.com/profile/flatlanderone)
+
+- **Download page**: [Flatlander's Utility Modlet Pack](https://www.nexusmods.com/7daystodie/mods/8769)
+
+- **Version**: 2.3.0.2
+
+- **Initial release**: 2025-10-03 (2.3.0.2)
+
+# Changelog
+
+## Added 
+
+## Fixed
