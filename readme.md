@@ -6,15 +6,15 @@ Adds to inventory the Tester's Delight note on first spawn. Reading the note add
 
 https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/TestersDelightOnSpawn
 
-## Bigger Crafting Bundle On Spawn
+## Bigger Crafting Resources Pack On Spawn
 
 Adds to inventory a more complete crafting bundle on first spawn. Make sure to have enough free inventory slots. See bigger_crafting_bundle.jpg in the Images folder.
 
 https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/BiggerCraftingBundle
 
-## Restock Option
+## Restock Trader Inventory
 
-Adds a restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption.
+Adds an inventory restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption. See the screenshots in the images folder.
 
 https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/RestockOption
 
@@ -26,7 +26,7 @@ https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/AnyStart
 
 ## Any Starting Trader - No Desert
 
-Your starting trader is the closest trader in relation to your spawn point, unless you spawn in the desert biome. In that case, you will be directed to the pine forest trader,
+Your starting trader is the closest trader in relation to your spawn point, unless you spawn in the desert biome. In that case, you will be directed to the pine forest trader.
 
 https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/AnyStartingTraderNoDesert
 

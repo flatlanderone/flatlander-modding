@@ -1,4 +1,4 @@
-## Bigger Crafting Bundle On Spawn
+## Bigger Crafting Resources Pack On Spawn
 
 Adds to inventory a more complete crafting bundle on first spawn. See the screenshots in the images folder.
 
