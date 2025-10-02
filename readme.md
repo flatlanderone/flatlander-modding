@@ -24,6 +24,13 @@ Your starting trader is the closest trader in relation to your spawn point. Edit
 
 https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/StartingTrader
 
+
+## Dummy Mod To Test Conditionals
+
+Test conditional loading of mods. Replace DummyMod name value with the name of the mod that must be loaded for the coondition to be true or false.
+
+https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/Dummy%20Mod%20To%20Test%20Conditionals
+
 # Third-party Utilities
 
 ## GitHub Markdown to Nexusmods BBCode converter
