@@ -14,15 +14,21 @@ https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/BiggerCr
 
 ## Restock Option
 
-Restock a trader's inventory without turning on dev tools.
+Adds a restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption.
 
 https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/RestockOption
 
-## Starting Trader
+## Any Starting Trader 
 
 Your starting trader is the closest trader in relation to your spawn point. Edit your spawnpoints.xml to spawn in a different biome.
 
-https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/StartingTrader
+https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/AnyStartingTrader
+
+## Any Starting Trader - No Desert
+
+Your starting trader is the closest trader in relation to your spawn point, unless you spawn in the desert biome. In that case, you will be directed to the pine forest trader,
+
+https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/AnyStartingTraderNoDesert
 
 ## Dummy Mod To Test Conditionals
 
