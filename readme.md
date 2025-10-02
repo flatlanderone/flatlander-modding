@@ -2,13 +2,13 @@
 
 ## Tester's Delight On Spawn
 
-Adds Tester's Delight on spawn for testing.
+Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
 
 https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/TestersDelightOnSpawn
 
 ## Bigger Crafting Bundle
 
-Adds a more complete crafting bundle for testing.
+Adds to inventory a more complete crafting bundle on first spawn. See bigger_crafting_bundle.jpg in the Images folder.
 
 https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/BiggerCraftingBundle
 

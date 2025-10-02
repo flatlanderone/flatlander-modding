@@ -2,7 +2,7 @@
 <xml>
 		<Name value="BiggerCraftingBundleFTLR" />
 		<DisplayName value="Bigger Crafting Bundle" />
-		<Description value="Adds a more complete crafting bundle." />
+		<Description value="Adds to inventory a more complete crafting bundle on first spawn. See the screenshot in the images folder." />
 		<Author value="flatlander" />
-		<Version value="0.1.0.0" />
+		<Version value="2.3.0.2" />
 </xml>
