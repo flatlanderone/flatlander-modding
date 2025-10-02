@@ -24,7 +24,6 @@ Your starting trader is the closest trader in relation to your spawn point. Edit
 
 https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/StartingTrader
 
-
 ## Dummy Mod To Test Conditionals
 
 Test conditional loading of mods. Replace DummyMod name value with the name of the mod that must be loaded for the coondition to be true or false.
@@ -52,3 +51,6 @@ Resets a trader's quest list without turning on dev tools.
 
 https://www.nexusmods.com/7daystodie/mods/4715
 
+# Important repositories
+
+tba
