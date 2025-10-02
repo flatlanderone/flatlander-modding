@@ -39,3 +39,4 @@ https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
 Resets a trader's quest list without turning on dev tools.
 
 https://www.nexusmods.com/7daystodie/mods/4715
+
