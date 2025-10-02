@@ -1,5 +1,26 @@
 <AnyStartingTrader>
  
+ 
+<!-- Modify biome constraints for quest_whiteRiverCitizen1 -->
 <remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/objective[@id='trader']/property[@name='biome_filter_type' or @name='biome_filter']" /> 
+ 
+ 
+<append xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/objective[@id='trader']" >
+	<property name="location_name" value="trader_closestFTLR"/>			
+	<!-- Go to a trader in the current biome. -->
+	<property name="biome_filter_type" value="SameBiome" param1="biome_filter_type"/>
+	<property name="biome_filter" value="" param1="biome_filter"/>	
+</append> 
+
+
+<!-- Modify biome constraints for intro_buried_supplies -->
+
+ <remove xpath="/quests/quest[@id='intro_buried_supplies']/objective[@type='RandomGotoNPC']/property[@name='biome_filter_type' or @name='biome_filter']" /> 
+ 
+ <append xpath="/quests/quest[@id='intro_buried_supplies']/objective[@type='RandomGotoNPC']" >
+
+	<property name="biome_filter_type" value="SameBiome" param1="biome_filter_type"/>
+	<property name="biome_filter" value="" param1="biome_filter"/>	
+</append> 
  
 </AnyStartingTrader>
