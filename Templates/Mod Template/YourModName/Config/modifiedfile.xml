@@ -1,5 +1,5 @@
 <yourmodname>
-
+<RamblingMan>
 
 <!-- Add comments to indicate what the code does. -->
 
@@ -48,5 +48,7 @@
 
 </include>
 
+
+</RamblingMan>
 </yourmodname>
 
