@@ -1,4 +1,4 @@
-## Tester's Delight On Spawn
+## Tester's Delight On Spawn 2.3.0.3
 
 Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items. See the screenshots in the images folder.
 

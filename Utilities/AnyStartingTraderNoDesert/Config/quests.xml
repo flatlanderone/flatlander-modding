@@ -1,20 +1,7 @@
 <AnyStartingTrader>
  
-<!-- <remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/objective[@id='trader']/property[@name='biome_filter_type' or @name='biome_filter']" />  -->
-
-
-<!-- <set xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/objective[@id='trader']/property[@name='biome_filter_type']" >
-	<property name="biome_filter_type" value="ExcludeBiome"/>
-</set> 
-
-<set xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/objective[@id='trader']/property[@name='biome_filter']" >
-	<property name="biome_filter" value="desert"/>
-</set>  -->
-
- 
 <!-- Modify biome constraints for quest_whiteRiverCitizen1 -->
 <remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/objective[@id='trader']/property[@name='biome_filter_type' or @name='biome_filter']" /> 
- 
  
 <append xpath="/quests/quest[@id='quest_whiteRiverCitizen1']/objective[@id='trader']" >
 	<property name="location_name" value="trader_closestFTLR"/>			
@@ -23,15 +10,13 @@
 	<property name="biome_filter" value="desert" param1="biome_filter"/>	
 </append> 
 
-
 <!-- Modify biome constraints for intro_buried_supplies -->
 
- <remove xpath="/quests/quest[@id='intro_buried_supplies']/objective[@type='RandomGotoNPC']/property[@name='biome_filter_type' or @name='biome_filter']" /> 
+<remove xpath="/quests/quest[@id='intro_buried_supplies']/objective[@type='RandomGotoNPC']/property[@name='biome_filter_type' or @name='biome_filter']" /> 
  
- <append xpath="/quests/quest[@id='intro_buried_supplies']/objective[@type='RandomGotoNPC']" >
-
+<append xpath="/quests/quest[@id='intro_buried_supplies']/objective[@type='RandomGotoNPC']" >
 	<property name="biome_filter_type" value="ExcludeBiome" param1="biome_filter_type"/>
-	<property name="biome_filter" value="desert" param1="biome_filter"/>	
+	<property name="biome_filter" value="desert" param1="biome_filter"/>
 </append> 
 
 

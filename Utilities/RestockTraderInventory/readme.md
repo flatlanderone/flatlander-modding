@@ -1,4 +1,4 @@
-## Restock Trader Inventory
+## Restock Trader Inventory 2.3.0.3
 
 Adds an inventory restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption. See the screenshots in the images folder.
 

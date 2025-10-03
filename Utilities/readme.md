@@ -1,4 +1,4 @@
-# Flatlander's Utility Modlet Pack 2.3.0.2
+# Flatlander's Utility Modlet Pack 2.3.0.3
 
 ## About
 
@@ -6,11 +6,11 @@ The Modlet Pack contains my growing collection of modlets I use for development 
 
 ## 1. Any Starting Trader 
 
-Your starting trader is the closest trader in relation to your spawn point. Edit your spawnpoints.xml to spawn in a different biome.
+Your starting trader is the closest trader in the biome in which you complete the Basics of Survival challenges.
 
 ## 2. Any Starting Trader - No Desert
 
-Your starting trader is the closest trader in relation to your spawn point, unless you spawn in the desert biome. In that case, you will be directed to the pine forest trader.
+Your starting trader is the closest trader in the biome in which you complete the Basics of Survival challenges, unless you complete in the desert biome. In that case, you will be directed to the closest trader in the other biomes.
 
 ## 3. Bigger Crafting Resources Pack On Spawn
 
@@ -40,9 +40,9 @@ Adds to inventory the Tester's Delight note on first spawn. Reading the note add
 
 - **Download page**: [Flatlander's Utility Modlet Pack](https://www.nexusmods.com/7daystodie/mods/8769)
 
-- **Version**: 2.3.0.2
+- **Version**: 2.3.0.3
 
-- **Initial release**: 2025-10-03 (2.3.0.2)
+- **Initial release**: 2025-10-03 (2.3.0.3)
 
 # Changelog
 
