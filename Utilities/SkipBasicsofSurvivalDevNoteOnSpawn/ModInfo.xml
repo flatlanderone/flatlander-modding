@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="SkipBasicsofSurvivalDevNoteOnSpawnFTLR" /> <!-- no spaces -->
+	<DisplayName value="Skip Basics of Survival Dev Note On Spawn" />
+	<Description value="Adds to inventory the Skip Basics of Survival dev note on first spawn. Reading the note completes automatically the challenges." />
+	<Author value="flatlander" />
+	<Version value="2.3.0.1" />
+	<Website value="https://github.com/flatlanderone/flatlander-modding" />
+</xml>
