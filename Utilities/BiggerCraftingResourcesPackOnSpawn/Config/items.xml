@@ -3,7 +3,7 @@
 <!-- Bigger Crafting Bundle -->
 
 <append xpath="/items">
-	<!-- *** Biggger_Admin_Crafting_Resources -->
+	<!-- *** Bigger_Admin_Crafting_Resources -->
 <item name="craftingResourcesPackAdminFTLR">
 	<property name="Extends" value="noteTestersDelightAdmin"/>
 	<property name="CreativeMode" value="Dev"/>

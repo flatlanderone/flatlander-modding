@@ -1,4 +1,4 @@
-# Flatlander's Utility Modlet Pack 2.3.0.3
+# Flatlander's Utility Modlet Pack 2.3.0.4
 
 ## About
 
@@ -24,7 +24,11 @@ Test conditional loading of mods. Replace DummyMod name value with the name of t
 
 Adds an inventory restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption. See the screenshots in the images folder.
 
-## 6. Tester's Delight On Spawn
+## 6. Skip Basics of Survival Dev Note On Spawn (new)
+
+Adds to inventory the Skip Basics of Survival dev note on first spawn. Reading the note completes automatically the challenges.
+
+## 7. Tester's Delight On Spawn
 
 Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
 
@@ -40,12 +44,16 @@ Adds to inventory the Tester's Delight note on first spawn. Reading the note add
 
 - **Download page**: [Flatlander's Utility Modlet Pack](https://www.nexusmods.com/7daystodie/mods/8769)
 
-- **Version**: 2.3.0.3
+- **Version**: 2.3.0.4
 
-- **Initial release**: 2025-10-03 (2.3.0.3)
+- **Initial release**: 2025-10-04 (2.3.0.4)
 
-# Changelog
+# Changelog for 2.3.0.4
 
 ## Added 
 
+- Skip Basics of Survival Dev Note On Spawn
+
 ## Fixed
+
+- Typos

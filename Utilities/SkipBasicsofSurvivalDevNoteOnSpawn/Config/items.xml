@@ -1,0 +1,34 @@
+<RamblingMan>
+<append xpath="/items">
+	<!-- *** Add Skip Basics of Survival Dev Item - Trophy -->
+	<item name="adminGiveBuffSkipBasicsOfSurvivalFTLR">
+		<property name="CreativeMode" value="Dev"/>
+		<property name="DescriptionKey" value="adminGiveBuffSkipBasicsOfSurvivalFTLRDesc"/>
+		<property name="CustomIcon" value="resourceTrophy1"/>
+		<property name="ItemTypeIcon" value="computer"/>	
+		<property name="CustomIconTint" value="ff7400"/>
+		<property name="TintColor" value="ff7400"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="Weight" value="0"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="ShowQuality" value="false"/>
+		
+		<property class="Action0">
+			<property name="Class" value="Eat"/>
+			<property name="Consume" value="true"/>
+			<property name="Delay" value="1"/>
+			<property name="Sound_start" value="player_drinking"/>
+			<property name="UseAnimation" value="false"/>
+		</property>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buff_Skip_Tutorial_Challenges_FTLR"/>
+		</effect_group>
+	</item>
+</append>
+</RamblingMan>

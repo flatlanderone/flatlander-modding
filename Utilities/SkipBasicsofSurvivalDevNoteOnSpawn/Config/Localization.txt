@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+
+adminGiveBuffSkipBasicsOfSurvivalFTLRDesc,items,Admin,,,"Dev: Skip Basics of Survival tutorial challenges.\n\nThank you for using Flatlander's Utility Modlet Pack!",,,,,,,,,,,,,
+
+adminGiveBuffSkipBasicsOfSurvivalFTLR,items,Admin,,,Dev: Skip Basics of Survival,,,,,,,,,,,,,

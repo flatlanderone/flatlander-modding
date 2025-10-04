@@ -7,4 +7,5 @@ Adds to inventory a more complete crafting bundle on first spawn. See the screen
 Make sure to have enough free inventory slots!
 
 ## Requirements
+
 7 Days to Die v2.0 and later.
