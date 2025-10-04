@@ -24,15 +24,28 @@ Test conditional loading of mods. Replace DummyMod name value with the name of t
 
 Adds an inventory restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption. See the screenshots in the images folder.
 
-## 6. Tester's Delight On Spawn
+## 6. Skip Basics of Survival Dev Note On Spawn (new)
+
+Adds to inventory the Skip Basics of Survival dev note on first spawn. Reading the note completes automatically the challenges.
+
+## 7. Tester's Delight On Spawn
 
 Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
 
-# Third-party Modlets
+# Third-party Mods and Modlets
+
+## 0-Score
+
+The largest resource library for modders.
+
+Public version: https://www.nexusmods.com/7daystodie/mods/4715
+
+Latest builds: https://github.com/SphereII/SphereII.Mods
 
 ## Reset Trader's Quests by 0xSteel
 
-Adds option to reset trader's quest list
+Adds option to reset trader's quest list directly from the trader dialog without enabling dev mode.
+
 https://www.nexusmods.com/7daystodie/mods/4715
 
 ## LiveReloader by TianYi
