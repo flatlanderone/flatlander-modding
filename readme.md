@@ -1,28 +1,30 @@
 # Modding utilities and resources for 7 Days to DIe
 
-- [My Utility Modlet Pack](#my-utility-modlet-pack)
-  * [1. Any Starting Trader](#1-any-starting-trader)
-  * [2. Any Starting Trader - No Desert](#2-any-starting-trader---no-desert)
-  * [3. Bigger Crafting Resources Pack On Spawn](#3-bigger-crafting-resources-pack-on-spawn)
-  * [4. Dummy Mod To Test Conditionals](#4-dummy-mod-to-test-conditionals)
-  * [5. Restock Trader Inventory](#5-restock-trader-inventory)
-  * [6. Skip Basics of Survival Dev Note On Spawn (new)](#6-skip-basics-of-survival-dev-note-on-spawn--new-)
-  * [7. Tester's Delight On Spawn](#7-tester-s-delight-on-spawn)
-- [Third-party Mods and Modlets](#third-party-mods-and-modlets)
-  * [0-Score](#0-score)
-  * [Reset Trader's Quests by 0xSteel](#reset-trader-s-quests-by-0xsteel)
-  * [LiveReloader by TianYi](#livereloader-by-tianyi)
-        * [Usage](#usage)
-  * [Skip News Screen - V2.3 b9 by w00kie n00kie](#skip-news-screen---v23-b9-by-w00kie-n00kie)
-  * [Damage Numbers by jucah.ai](#damage-numbers-by-jucahai)
-  * [Reset Trader's Quests by 0xSteel](#reset-trader-s-quests-by-0xsteel-1)
-  * [V2 Traders Always Open by arramus](#v2-traders-always-open-by-arramus)
-- [Other utilities](#other-utilities)
-  * [GitHub Markdown to Nexusmods BBCode converter](#github-markdown-to-nexusmods-bbcode-converter)
-  * [GitHub Wiki TOC generator](#github-wiki-toc-generator)
-  * [Markdown All in One - Markdown Support for Visual Studio Code](#markdown-all-in-one---markdown-support-for-visual-studio-code)
+- [Modding utilities and resources for 7 Days to DIe](#modding-utilities-and-resources-for-7-days-to-die)
+  * [My Utility Modlet Pack](#my-utility-modlet-pack)
+    + [1. Any Starting Trader](#1-any-starting-trader)
+    + [2. Any Starting Trader - No Desert](#2-any-starting-trader---no-desert)
+    + [3. Bigger Crafting Resources Pack On Spawn](#3-bigger-crafting-resources-pack-on-spawn)
+    + [4. Dummy Mod To Test Conditionals](#4-dummy-mod-to-test-conditionals)
+    + [5. Restock Trader Inventory](#5-restock-trader-inventory)
+    + [6. Skip Basics of Survival Dev Note On Spawn (new)](#6-skip-basics-of-survival-dev-note-on-spawn--new-)
+    + [7. Tester's Delight On Spawn](#7-tester-s-delight-on-spawn)
+  * [Third-party Mods and Modlets](#third-party-mods-and-modlets)
+    + [0-Score](#0-score)
+    + [Reset Trader's Quests by 0xSteel](#reset-trader-s-quests-by-0xsteel)
+    + [LiveReloader by TianYi](#livereloader-by-tianyi)
+          + [Usage](#usage)
+    + [Skip News Screen - V2.3 b9 by w00kie n00kie](#skip-news-screen---v23-b9-by-w00kie-n00kie)
+    + [Damage Numbers by jucah.ai](#damage-numbers-by-jucahai)
+    + [Reset Trader's Quests by 0xSteel](#reset-trader-s-quests-by-0xsteel-1)
+    + [V2 Traders Always Open by arramus](#v2-traders-always-open-by-arramus)
+  * [Other Utilities](#other-utilities)
+    + [GitHub Markdown to Nexusmods BBCode converter](#github-markdown-to-nexusmods-bbcode-converter)
+    + [GitHub Wiki TOC generator](#github-wiki-toc-generator)
+    + [Markdown All in One - Markdown Support for Visual Studio Code](#markdown-all-in-one---markdown-support-for-visual-studio-code)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 ## My Utility Modlet Pack
@@ -115,7 +117,7 @@ https://www.nexusmods.com/7daystodie/mods/4715
 
 https://www.nexusmods.com/7daystodie/mods/7342
 
-## Other utilities
+## Other Utilities
 
 ### GitHub Markdown to Nexusmods BBCode converter
 
