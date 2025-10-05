@@ -7,13 +7,10 @@
 - [Other Utilities](#other-utilities)
 
 ## My Utility Modlet Pack
-
 The Modlet Pack contains my growing collection of modlets I use for development and testing.
 
 Latest version: https://www.nexusmods.com/7daystodie/mods/8769
-
 ### 1. Any Starting Trader 
-
 Your starting trader is the closest trader in the biome in which you complete the Basics of Survival challenges.
 
 ### 2. Any Starting Trader - No Desert
