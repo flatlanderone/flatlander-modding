@@ -1728,7 +1728,7 @@
 		<requirement name="!HasBuff" buff="buffTwitchRadiation"/>
 		<requirement name="!IsAttachedToEntity"/>
 		<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="5"/>
-			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_at_self="true"/>
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
 			<passive_effect name="GeneralDamageResist" operation="base_add" level="1" value="1"/>
 		</effect_group>
@@ -1746,7 +1746,7 @@
 		<requirement name="!HasBuff" buff="buffTwitchRadiation"/>
 		<requirement name="!IsAttachedToEntity"/>
 		<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
-			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_at_self="true"/>
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
 			<passive_effect name="GeneralDamageResist" operation="base_add" level="2" value="1"/>
 		</effect_group>
@@ -1764,7 +1764,7 @@
 		<requirement name="!HasBuff" buff="buffTwitchRadiation"/>
 		<requirement name="!IsAttachedToEntity"/>
 		<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
-			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_at_self="true"/>
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
 			<passive_effect name="GeneralDamageResist" operation="base_add" level="3" value="1"/>
 		</effect_group>
@@ -1782,7 +1782,7 @@
 		<requirement name="!HasBuff" buff="buffTwitchRadiation"/>
 		<requirement name="!IsAttachedToEntity"/>
 		<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
-			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_at_self="true"/>
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
 			<passive_effect name="GeneralDamageResist" operation="base_add" level="4" value="1"/>
 		</effect_group>
@@ -1799,7 +1799,7 @@
 		<requirement name="!HasBuff" buff="buffTwitchShocked"/>
 		<requirement name="!HasBuff" buff="buffTwitchRadiation"/>
 		<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25"/>
-			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_at_self="true"/>
 			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
 			<passive_effect name="GeneralDamageResist" operation="base_add" level="5" value="1"/>
 		</effect_group>
@@ -2783,27 +2783,16 @@
 		</effect_group>
 
 		<effect_group>
-			<!-- Handguns cause bleeding -->
-			<requirement name="HoldingItemHasTags" tags="perkGunslinger,perkArchery"/>
+			<!-- Handguns now cause bleeding -->
+			<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
 			<requirement name="ProgressionLevel" progression_name="perkAgilityMastery" operation="GTE" value="3"/>
 			<requirement name="CVarCompare" cvar="bleedCounter" operation="LT" value="1" target="other"/>
 				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
 		</effect_group>
+
 		<effect_group>
 			<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="other"/>
 				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryBleeding"/>
-		</effect_group>
-
-		<effect_group>
-			<!-- Bows and crossbows cause bleeding -->
-			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
-			<requirement name="ProgressionLevel" progression_name="perkAgilityMastery" operation="GTE" value="3"/>
-			<requirement name="CVarCompare" cvar="bleedCounter" operation="LT" value="1" target="other"/>
-				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
-		</effect_group>
-		<effect_group>
-			<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="other"/>
-				<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffInjuryBleeding"/>
 		</effect_group>
 
 		<effect_group>
@@ -3381,7 +3370,7 @@
 			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="2,10" tags="armorLightSkill"/>
 
 			<!-- Increase the chance to find armor crafting skill magazines with each perk rank up to crafting skill 100 -->
-			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="4,20" tags="armorCSM">
+			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="2,10" tags="armorCSM">
 				<requirement name="ProgressionLevel" progression_name="craftingArmor" operation="LT" value="100"/>
 			</passive_effect>
 
@@ -3406,7 +3395,7 @@
 			<passive_effect name="DegradationPerUse" operation="perc_add" level="0,4" value="0,-.6" tags="mediumArmorDeg"/>
 
 			<!-- Increase the chance to find armor with each perk rank -->
-			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="4,20" tags="armorMediumSkill"/>
+			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="2,10" tags="armorMediumSkill"/>
 
 			<!-- Increase the chance to find armor crafting skill magazines with each perk rank up to crafting skill 100 -->
 			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="2,10" tags="armorCSM">
@@ -3434,7 +3423,7 @@
 			<passive_effect name="DegradationPerUse" operation="perc_add" level="0,4" value="0,-.6" tags="heavyArmorDeg"/>
 
 			<!-- Increase the chance to find armor with each perk rank -->
-			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="4,20" tags="armorHeavySkill"/>
+			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="2,10" tags="armorHeavySkill"/>
 
 			<!-- Increase the chance to find armor crafting skill magazines with each perk rank up to crafting skill 100 -->
 			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="2,10" tags="armorCSM">
