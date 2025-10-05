@@ -277,6 +277,36 @@
 		<property name="allow_user_trigger" value="false" />
 		<property name="action_type" value="Game" />
 
+		<!-- Backpack has already dropped. This just cleans up any items like the biome badges. -->
+		<action class="RemoveItems">
+			<property name="items_location" value="Toolbelt,Backpack,Equipment,BiomeBadge" param1="itemlocation" />
+		</action>
+
+		<!-- When the biome badge is removed, this will set the biome timers back to default to prevent the recover buffs from running. -->
+		<action class="ModifyCVar">
+			<property name="cvar" value="$BurntHazardTimer" />
+			<property name="operation" value="set" />
+			<property name="value" value="180" />
+		</action>
+
+		<action class="ModifyCVar">
+			<property name="cvar" value="$DesertHazardTimer" />
+			<property name="operation" value="set" />
+			<property name="value" value="120" />
+		</action>
+
+		<action class="ModifyCVar">
+			<property name="cvar" value="$SnowHazardTimer" />
+			<property name="operation" value="set" />
+			<property name="value" value="60" />
+		</action>
+
+		<action class="ModifyCVar">
+			<property name="cvar" value="$WastelandHazardTimer" />
+			<property name="operation" value="set" />
+			<property name="value" value="30" />
+		</action>
+
 		<action class="RemoveDeathBuffs" />
 
 		<action class="ModifyEntityStat">

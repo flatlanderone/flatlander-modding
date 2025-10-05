@@ -97,6 +97,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -177,6 +178,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -462,6 +464,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -557,6 +560,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -675,6 +679,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -782,6 +787,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -888,6 +894,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -993,6 +1000,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -1099,6 +1107,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -1240,6 +1249,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -1375,6 +1385,7 @@
 		<!-- Reduce treatedAbrasionCounter when holding mining tools -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$treatedAbrasionCounter" operation="multiply" value="@$minerHealing">
 				<requirement name="CVarCompare" cvar="$minerHealing" operation="GT" value="0"/>
+				<requirement name="CVarCompare" cvar="$minerFlag" operation="LTE" value="0"/>
 			</triggered_effect>
 		<!-- Set a check flag when holding -->
 			<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="$minerCheck" operation="set" value="1">
@@ -13469,7 +13480,6 @@
 		<property name="TransformName" value="head"/>
 		<property name="Excludes" value=""/>
 		<property name="HairMaskType" value="None"/>
-		<property name="FacialHairMaskType" value="None"/>
 	</property>
 </item>
 
@@ -13748,6 +13758,48 @@
 		<property name="Prefab" value="@:DLC/SamuraiCosmetic/Entities/Player/{sex}/Gear/Prefabs/gear{sex}SamuraiPrefab.prefab"/>
 		<property name="TransformName" value="feet"/>
 		<property name="Excludes" value="feet"/>
+	</property>
+</item>
+
+<!-- **** Twitch_Drops -->
+	<!-- *** PIMP_HATS -->
+		<!-- *** PIMP_HAT_BLUE -->
+<item name="armorPimpHatBlueHelmet">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="DescriptionKey" value="armorPimpHatBlueHelmetDesc"/>
+	<property name="DisplayType" value="armorPimpHatBlueHelmet"/>
+	<property name="ArmorGroup" value="groupPimpHatBlue"/>
+	<property name="Tags" value="head,armor,armorHead"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_cloth_grab"/>
+	<property name="SoundPlace" value="headwear_cloth_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/PimpHatBlue/Entities/Player/{sex}/Gear/HeadgearMorphMatrix/{race}{variant}/gearPimpHatBlueHead.asset"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value=""/>
+		<property name="HairMaskType" value="Hat"/>
+	</property>
+</item>
+
+		<!-- *** PIMP_HAT_Purple -->
+<item name="armorPimpHatPurpleHelmet">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="DescriptionKey" value="armorPimpHatPurpleHelmetDesc"/>
+	<property name="DisplayType" value="armorPimpHatPurpleHelmet"/>
+	<property name="ArmorGroup" value="groupPimpHatPurple"/>
+	<property name="Tags" value="head,armor,armorHead"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_cloth_grab"/>
+	<property name="SoundPlace" value="headwear_cloth_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/PimpHatPurple/Entities/Player/{sex}/Gear/HeadgearMorphMatrix/{race}{variant}/gearPimpHatPurpleHead.asset"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value=""/>
+		<property name="HairMaskType" value="Hat"/>
 	</property>
 </item>
 

@@ -1,6 +1,6 @@
 <controls>
 
-	<debugslider depth="1" pos="0,0" width="200" visible="true">
+	<debugslider depth="1" pos="0,0" visible="true">
 		<rect name="${name}" depth="${depth}" controller="Slider" pos="${pos}" width="${width}" height="62" visible="${visible}" >
 			<label depth="1" pos="0, -6"  width="${width}" height="28" text="{name}: {value}" />
 			<rect pos="2,-34">
@@ -29,11 +29,9 @@
 		<rect height="43" controller="ItemActionEntry" disabled_font_color="[disabledLabelColor]" default_font_color="[labelColor]" default_background_color="[mediumGrey]">
 			<sprite depth="3" name="background" color="[mediumGrey]" type="sliced" on_press="true" on_hover="true" width="147" sound_play_on_hover="[default_hover]" gamepad_selectable="false"/>
 			<sprite depth="4" name="Icon" sprite="{actionicon}" size="24,24" color="{statuscolor}" pos="2,-10" foregroundlayer="true"/>
-			<!--#$-IGS BEGIN: Adding gamepad callout. -$#-->
 			<label depth="4" name="Name" pos="32,-22" width="78" height="26" text="{actionname}" font_size="26" color="{statuscolor}" effect="shadow" pivot="left" />
 			<gamepad_icon depth="4" name="gamepadIcon" size="44,44" pos="146,-22" pivot="Right" visible="{inspectheld}" />
 			<label depth="4" name="keyboardButton" pos="145,-22" width="36" height="26" text="&lt;W&gt;" font_size="26" color="{statuscolor}" effect="shadow" pivot="right" justify="center" />
-			<!--*#$-IGS END.-$#-->
 		</rect>
 	</item_action_entry>
 
@@ -42,10 +40,8 @@
 			<sprite depth="3" name="background" color="[mediumGrey]" type="sliced" on_press="true" on_hover="true" sound_play_on_hover="[default_hover]" gamepad_selectable="false"/>
 			<sprite depth="4" name="Icon" sprite="{actionicon}" size="24,24" color="{statuscolor}" pos="2,-10" foregroundlayer="true"/>
 			<label depth="4" name="Name" pos="32,-22" width="78" height="26" text="{actionname}" font_size="26" color="{statuscolor}" effect="shadow" pivot="left" />
-			<!--#$-IGS BEGIN: Adding gamepad callout . -$#-->
 			<gamepad_icon depth="4" name="gamepadIcon" pos="145,-22" size="44,44" pivot="Right" />
 			<label depth="4" name="keyboardButton" pos="145,-22" width="36" height="26" text="&lt;W&gt;" font_size="26" color="{statuscolor}" effect="shadow" pivot="right" justify="center" />
-			<!--*#$-IGS END.-$#-->
 		</rect>
 	</skill_action_entry>
 
@@ -303,7 +299,6 @@
 		</rect>
 	</cosmetic_item_stack>
 
-	<!--#$-IGS BEGIN: Increasing collider scale to improve snap responsiveness -$#-->
 	<recipe_stack>
 		<rect controller="RecipeStack" width="72" height="72" collider_scale="1.0">
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="78" height="78" color="[black]" type="sliced" fillcenter="false" />
@@ -316,7 +311,6 @@
 			<sprite depth="3" name="cancel" sprite="ui_game_symbol_x" width="72" height="72" color="255,0,0,0" type="sliced" visible="false" foregroundlayer="true"/>
 		</rect>
 	</recipe_stack>
-	<!--*#$-IGS END.-$#-->
 
 	<material_stack>
 		<rect controller="MaterialStack" style="itemStack, hover, scroll" collider_scale="1.1" sound="[recipe_click]" sound_play_on_hover="[default_hover]">

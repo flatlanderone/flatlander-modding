@@ -1635,6 +1635,11 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
 	<ingredient name="resourceWood" count="5"/>
 </recipe>
 
+<recipe name="curtainVariantHelper" count="1" tags="packMuleCrafting">
+	<ingredient name="resourceCloth" count="5"/>
+	<ingredient name="resourceScrapIron" count="5"/>
+</recipe>
+
 <recipe name="woodSignBlockVariantHelper" count="1" tags="packMuleCrafting">
 	<ingredient name="resourceNail" count="10"/>
 	<ingredient name="resourceWood" count="10"/>
