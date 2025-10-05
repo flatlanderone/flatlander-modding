@@ -127,7 +127,7 @@ https://www.nexusmods.com/7daystodie/mods/8769?tab=files (Miscellaneous files)
 
 ### GitHub Markdown to Nexusmods BBCode converter
 
-Convert ,MD files to Nexusmods BBCode
+Convert .MD files to Nexusmods BBCode.
 
 https://miome.github.io/githubmd-to-nexusmodsbbcode/
 
