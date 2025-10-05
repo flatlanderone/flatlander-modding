@@ -102,6 +102,8 @@ https://www.nexusmods.com/7daystodie/mods/7342
 
 A simple batch file that creates, if necessary, and opens the default 7 Days To Die `Mods` folder in `%APPDATA%\7DaysToDie`.
 
+https://www.nexusmods.com/7daystodie/mods/8769?tab=files (Miscellaneous files)
+
 ### GitHub Markdown to Nexusmods BBCode converter
 
 Convert ,MD files to Nexusmods BBCode
