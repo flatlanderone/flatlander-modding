@@ -95,6 +95,31 @@ https://www.nexusmods.com/7daystodie/mods/7342
 
 ## Other Utilities
 
+### Semantic versioning for 7 Days To Die
+
+#### From Karl Giesing:
+
+```I am adopting something similar to Semantic Versioning 2.0, except with four numbers rather than three.
+Here is what each number means:
+
+7 Days To Die major version (2 in version 2.0) on which the mod was developed and tested
+
+7 Days To Die minor version (0 in version 2.0) on which the mod was developed and tested
+
+Major version of the mod (starting with 1 for the first public release) -
+any changes to the mod that require a new game, must require a new major version
+Minor (backwards-compatible, non-game-breaking) version of the mod
+
+Examples:
+
+The mod is developed on 7D2D version 2.0.
+This is the first public release of the mod.
+Version:
+
+2.0.1.0```
+
+Source: https://gitlab.com/karlgiesing/7d2d-2.0-mods#mod-versioning
+
 ### 7 Days To Die Default Mods Folder Finding Utility (new)
 
 A simple batch file that creates, if necessary, and opens the default 7 Days To Die `Mods` folder in `%APPDATA%\7DaysToDie`.

@@ -1,5 +1,13 @@
 ## 7 Days To Die Mod Installation Utility 2.3.0.1
 
+
+TO DO
+
+Open Mod folder
+
+Open readme.md
+
+
 This is a simple batch file (\*.bat) that does the following:
 
 1. It looks for the modlet folder in the 7 Days To Die `Mods` folder in the default location (%APPDATA%\7DaysToDie). 
