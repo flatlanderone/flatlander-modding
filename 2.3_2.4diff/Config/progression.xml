@@ -3406,10 +3406,10 @@
 			<passive_effect name="DegradationPerUse" operation="perc_add" level="0,4" value="0,-.6" tags="mediumArmorDeg"/>
 
 			<!-- Increase the chance to find armor with each perk rank -->
-			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="4,20" tags="armorMediumSkill"/>
+			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="2,10" tags="armorMediumSkill"/>
 
 			<!-- Increase the chance to find armor crafting skill magazines with each perk rank up to crafting skill 100 -->
-			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="2,10" tags="armorCSM">
+			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="4,20" tags="armorCSM">
 				<requirement name="ProgressionLevel" progression_name="craftingArmor" operation="LT" value="100"/>
 			</passive_effect>
 
@@ -3434,10 +3434,10 @@
 			<passive_effect name="DegradationPerUse" operation="perc_add" level="0,4" value="0,-.6" tags="heavyArmorDeg"/>
 
 			<!-- Increase the chance to find armor with each perk rank -->
-			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="4,20" tags="armorHeavySkill"/>
+			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="2,10" tags="armorHeavySkill"/>
 
 			<!-- Increase the chance to find armor crafting skill magazines with each perk rank up to crafting skill 100 -->
-			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="2,10" tags="armorCSM">
+			<passive_effect name="LootProb" operation="perc_add" level="1,4" value="4,20" tags="armorCSM">
 				<requirement name="ProgressionLevel" progression_name="craftingArmor" operation="LT" value="100"/>
 			</passive_effect>
 

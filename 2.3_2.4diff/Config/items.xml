@@ -13639,7 +13639,7 @@
 		<!-- *** CRIMSONWARLORD_HELMET -->
 <item name="armorCrimsonWarlordHelmet">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupCrimsonWarlord"/>
 	<property name="Tags" value="head,armor,armorHead"/>
 	<property name="EquipSlot" value="Head"/>
@@ -13658,7 +13658,7 @@
 		<!-- *** CRIMSONWARLORD_OUTFIT -->
 <item name="armorCrimsonWarlordOutfit">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupCrimsonWarlord"/>
 	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -13675,7 +13675,7 @@
 		<!-- *** CRIMSONWARLORD_GLOVES -->
 <item name="armorCrimsonWarlordGloves">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupCrimsonWarlord"/>
 	<property name="Tags" value="upperbody,hands,armor,armorHands"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -13692,7 +13692,7 @@
 		<!-- *** CRIMSONWARLORD_BOOTS -->
 <item name="armorCrimsonWarlordBoots">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupCrimsonWarlord"/>
 	<property name="Tags" value="lowerbody,feet,armor,armorFeet"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -13710,7 +13710,7 @@
 		<!-- *** SAMURAI_HELMET -->
 <item name="armorSamuraiHelmet">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupSamurai"/>
 	<property name="Tags" value="head,armor,armorHead"/>
 	<property name="EquipSlot" value="Head"/>
@@ -13729,7 +13729,7 @@
 		<!-- *** SAMURAI_OUTFIT -->
 <item name="armorSamuraiOutfit">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupSamurai"/>
 	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -13746,7 +13746,7 @@
 		<!-- *** SAMURAI_GLOVES -->
 <item name="armorSamuraiGloves">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupSamurai"/>
 	<property name="Tags" value="upperbody,hands,armor,armorHands"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -13763,7 +13763,7 @@
 		<!-- *** SAMURAI_BOOTS -->
 <item name="armorSamuraiBoots">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupSamurai"/>
 	<property name="Tags" value="lowerbody,feet,armor,armorFeet"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -13823,7 +13823,7 @@
 		<!-- *** WATCHER_HELMET -->
 <item name="armorWatcherHelmet">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupWatcher"/>
 	<property name="Tags" value="head,armor,armorHead"/>
 	<property name="EquipSlot" value="Head"/>
@@ -13843,7 +13843,7 @@
 		<!-- *** WATCHER_OUTFIT -->
 <item name="armorWatcherOutfit">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupWatcher"/>
 	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
 	<property name="EquipSlot" value="Chest"/>
@@ -13860,7 +13860,7 @@
 		<!-- *** WATCHER_GLOVES -->
 <item name="armorWatcherGloves">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupWatcher"/>
 	<property name="Tags" value="upperbody,hands,armor,armorHands"/>
 	<property name="EquipSlot" value="Hands"/>
@@ -13877,7 +13877,7 @@
 		<!-- *** WATCHER_BOOTS -->
 <item name="armorWatcherBoots">
 	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
-	<property name="CreativeMode" value="Test"/>
+	<property name="CreativeMode" value="None"/>
 	<property name="ArmorGroup" value="groupWatcher"/>
 	<property name="Tags" value="lowerbody,feet,armor,armorFeet"/>
 	<property name="EquipSlot" value="Feet"/>
@@ -13891,6 +13891,289 @@
 	</property>
 </item>
 
+	<!-- *** STORE_GEAR -->
+
+		<!-- *** CRACKABOOK_HELMET -->
+<item name="armorCrackABookHelmet">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupCrackABook"/>
+	<property name="Tags" value="head,armor,armorHead"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_metal_grab"/>
+	<property name="SoundPlace" value="headwear_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/CrackABookStoreGearHat/Entities/Player/{sex}/Gear/Prefabs/gear{sex}CrackABookHead{hair}Prefab.prefab"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value="None"/>
+		<property name="HairMaskType" value="Hat"/>
+	</property>
+</item>
+
+		<!-- *** CRACKABOOK_OUTFIT -->
+<item name="armorCrackABookOutfit">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupCrackABook"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="SoundPickup" value="outfit_metal_grab"/>
+	<property name="SoundPlace" value="outfit_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/CrackABookStoreGearOutfit/Entities/Player/{sex}/Gear/Prefabs/gear{sex}CrackABookOutfitPrefab.prefab"/>
+		<property name="TransformName" value="body"/>
+		<property name="Excludes" value="body"/>
+	</property>
+</item>
+
+		<!-- *** MOPOWER_HELMET -->
+<item name="armorMoPowerHelmet">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupMoPower"/>
+	<property name="Tags" value="head,armor,armorHead"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_metal_grab"/>
+	<property name="SoundPlace" value="headwear_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/MoPowerStoreGearHat/Entities/Player/{sex}/Gear/Prefabs/gear{sex}MoPowerHead{hair}Prefab.prefab"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value="None"/>
+		<property name="HairMaskType" value="Hat"/>
+	</property>
+</item>
+
+		<!-- *** MOPOWER_OUTFIT -->
+<item name="armorMoPowerOutfit">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupMoPower"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="SoundPickup" value="outfit_metal_grab"/>
+	<property name="SoundPlace" value="outfit_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/MoPowerStoreGearOutfit/Entities/Player/{sex}/Gear/Prefabs/gear{sex}MoPowerOutfitPrefab.prefab"/>
+		<property name="TransformName" value="body"/>
+		<property name="Excludes" value="body"/>
+	</property>
+</item>
+
+		<!-- *** PASSNGAS_HELMET -->
+<item name="armorPassNGasHelmet">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupPassNGas"/>
+	<property name="Tags" value="head,armor,armorHead"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_metal_grab"/>
+	<property name="SoundPlace" value="headwear_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/PassNGasStoreGearHat/Entities/Player/{sex}/Gear/Prefabs/gear{sex}PassNGasHead{hair}Prefab.prefab"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value="None"/>
+		<property name="HairMaskType" value="Hat"/>
+	</property>
+</item>
+
+		<!-- *** PASSNGAS_OUTFIT -->
+<item name="armorPassNGasOutfit">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupPassNGas"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="SoundPickup" value="outfit_metal_grab"/>
+	<property name="SoundPlace" value="outfit_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/PassNGasStoreGearOutfit/Entities/Player/{sex}/Gear/Prefabs/gear{sex}PassNGasOutfitPrefab.prefab"/>
+		<property name="TransformName" value="body"/>
+		<property name="Excludes" value="body"/>
+	</property>
+</item>
+
+		<!-- *** POPNPILLS_HELMET -->
+<item name="armorPopNPillsHelmet">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupPopNPills"/>
+	<property name="Tags" value="head,armor,armorHead"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_metal_grab"/>
+	<property name="SoundPlace" value="headwear_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/PopNPillsStoreGearHat/Entities/Player/{sex}/Gear/Prefabs/gear{sex}PopNPillsHead{hair}Prefab.prefab"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value="None"/>
+		<property name="HairMaskType" value="Hat"/>
+	</property>
+</item>
+
+		<!-- *** POPNPILLS_OUTFIT -->
+<item name="armorPopNPillsOutfit">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupPopNPills"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="SoundPickup" value="outfit_metal_grab"/>
+	<property name="SoundPlace" value="outfit_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/PopNPillsStoreGearOutfit/Entities/Player/{sex}/Gear/Prefabs/gear{sex}PopNPillsOutfitPrefab.prefab"/>
+		<property name="TransformName" value="body"/>
+		<property name="Excludes" value="body"/>
+	</property>
+</item>
+
+		<!-- *** SAVAGECOUNTRY_HELMET -->
+<item name="armorSavageCountryHelmet">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupSavageCountry"/>
+	<property name="Tags" value="head,armor,armorHead"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_metal_grab"/>
+	<property name="SoundPlace" value="headwear_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/SavageCountryStoreGearHat/Entities/Player/{sex}/Gear/Prefabs/gear{sex}SavageCountryHead{hair}Prefab.prefab"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value="None"/>
+		<property name="HairMaskType" value="Hat"/>
+	</property>
+</item>
+
+		<!-- *** SAVAGECOUNTRY_OUTFIT -->
+<item name="armorSavageCountryOutfit">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupSavageCountry"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="SoundPickup" value="outfit_metal_grab"/>
+	<property name="SoundPlace" value="outfit_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/SavageCountryStoreGearOutfit/Entities/Player/{sex}/Gear/Prefabs/gear{sex}SavageCountryOutfitPrefab.prefab"/>
+		<property name="TransformName" value="body"/>
+		<property name="Excludes" value="body"/>
+	</property>
+</item>
+
+		<!-- *** SHAMWAY_HELMET -->
+<item name="armorShamwayHelmet">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupShamway"/>
+	<property name="Tags" value="head,armor,armorHead"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_metal_grab"/>
+	<property name="SoundPlace" value="headwear_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/ShamwayStoreGearHat/Entities/Player/{sex}/Gear/Prefabs/gear{sex}ShamwayHead{hair}Prefab.prefab"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value="None"/>
+		<property name="HairMaskType" value="Hat"/>
+	</property>
+</item>
+
+		<!-- *** SHAMWAY_OUTFIT -->
+<item name="armorShamwayOutfit">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupShamway"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="SoundPickup" value="outfit_metal_grab"/>
+	<property name="SoundPlace" value="outfit_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/ShamwayStoreGearOutfit/Entities/Player/{sex}/Gear/Prefabs/gear{sex}ShamwayOutfitPrefab.prefab"/>
+		<property name="TransformName" value="body"/>
+		<property name="Excludes" value="body"/>
+	</property>
+</item>
+
+		<!-- *** SHOTGUNMESSIAH_HELMET -->
+<item name="armorShotgunMessiahHelmet">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupShotgunMessiah"/>
+	<property name="Tags" value="head,armor,armorHead"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_metal_grab"/>
+	<property name="SoundPlace" value="headwear_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/ShotgunMessiahStoreGearHat/Entities/Player/{sex}/Gear/Prefabs/gear{sex}ShotgunMessiahHead{hair}Prefab.prefab"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value="None"/>
+		<property name="HairMaskType" value="Hat"/>
+	</property>
+</item>
+
+		<!-- *** SHOTGUNMESSIAH_OUTFIT -->
+<item name="armorShotgunMessiahOutfit">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupShotgunMessiah"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="SoundPickup" value="outfit_metal_grab"/>
+	<property name="SoundPlace" value="outfit_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/ShotgunMessiahStoreGearOutfit/Entities/Player/{sex}/Gear/Prefabs/gear{sex}ShotgunMessiahOutfitPrefab.prefab"/>
+		<property name="TransformName" value="body"/>
+		<property name="Excludes" value="body"/>
+	</property>
+</item>
+
+		<!-- *** WORKINGSTIFFS_HELMET -->
+<item name="armorWorkingStiffsHelmet">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupWorkingStiffs"/>
+	<property name="Tags" value="head,armor,armorHead"/>
+	<property name="EquipSlot" value="Head"/>
+	<property name="SoundPickup" value="headwear_metal_grab"/>
+	<property name="SoundPlace" value="headwear_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/WorkingStiffsStoreGearHat/Entities/Player/{sex}/Gear/Prefabs/gear{sex}WorkingStiffsHead{hair}Prefab.prefab"/>
+		<property name="TransformName" value="head"/>
+		<property name="Excludes" value="None"/>
+		<property name="HairMaskType" value="Hat"/>
+	</property>
+</item>
+
+		<!-- *** WORKINGSTIFFS_OUTFIT -->
+<item name="armorWorkingStiffsOutfit">
+	<property name="Extends" value="armorDLCMaster" param1="CustomIcon"/>
+	<property name="CreativeMode" value="None"/>
+	<property name="ArmorGroup" value="groupWorkingStiffs"/>
+	<property name="Tags" value="upperbody,chest,armor,armorChest"/>
+	<property name="EquipSlot" value="Chest"/>
+	<property name="SoundPickup" value="outfit_metal_grab"/>
+	<property name="SoundPlace" value="outfit_metal_place"/>
+
+	<property class="SDCS">
+		<property name="Prefab" value="@:TwitchDrops/WorkingStiffsStoreGearOutfit/Entities/Player/{sex}/Gear/Prefabs/gear{sex}WorkingStiffsOutfitPrefab.prefab"/>
+		<property name="TransformName" value="body"/>
+		<property name="Excludes" value="body"/>
+	</property>
+</item>
+
+<!-- *** CLOTHING_ITEMS -->
 
 <!-- *** Medical_Items -->
 
@@ -14273,6 +14556,7 @@
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_bandage"/>
+		<requirement name="CVarCompare" cvar="brokenLimbStatus" operation="GTE" value="2" target="other"/>
 	</property>
 
 	<effect_group name="Primary Action" tiered="false"> <!-- splint -->
@@ -14374,6 +14658,7 @@
 		<property name="Class" value="UseOther"/>
 		<property name="Delay" value="1.0"/>
 		<property name="Sound_start" value="player_bandage"/>
+		<requirement name="CVarCompare" cvar="brokenLimbStatus" operation="GTE" value="1" target="other"/>
 	</property>
 
 	<effect_group name="Primary Action" tiered="false"> <!-- splint -->
