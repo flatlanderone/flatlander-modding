@@ -110,3 +110,7 @@ https://ecotrust-canada.github.io/markdown-toc/
 ### Markdown All in One - Markdown Support for Visual Studio Code
 
 https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+
+### Robocopy to automate modlet installation
+
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy
