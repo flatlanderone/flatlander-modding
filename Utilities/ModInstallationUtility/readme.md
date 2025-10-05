@@ -1,10 +1,22 @@
-## 7 Days To Die Default Mods Folder Finding Utility 2.3.0.1
+## 7 Days To Die Mod Installation Utility 2.3.0.1
 
-This is a simple batch file (\*.bat) that does two things:
+This is a simple batch file (\*.bat) that does the following:
 
-1. It looks for the 7 Days To Die `Mods` folder in the default location (%APPDATA%\7DaysToDie). If it finds it, it will open it in Windows Explorer.
+1. It looks for the modlet folder in the 7 Days To Die `Mods` folder in the default location (%APPDATA%\7DaysToDie). 
 
-2. If it doesn't find, it will create it and then open it in Windows Explorer.
+Example: %APPDATA%\7DaysToDie\Mods\SAMPLEMODFOLDER
+
+2. If it finds it,
+
+ 1. It copies the files.
+
+ 2. It stops with Overwrite? message.
+
+3. If it doesn't find it, it will create it and then copies the mod files.
+
+
+4. It opens the modlet inWindows Explorer.
+
 
 More about batch files: https://en.wikipedia.org/wiki/Batch_file
 
