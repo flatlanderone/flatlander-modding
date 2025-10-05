@@ -1,4 +1,4 @@
-## Find The Default 7 Days To Die Mods Folder Utility 2.3.0.1
+## 7 Days To Die Default Mods Folder Finding Utility 2.3.0.1
 
 This is a simple batch file (\*.bat) that does two things:
 
@@ -6,7 +6,7 @@ This is a simple batch file (\*.bat) that does two things:
 
 2. If it doesn't find, it will create it and then open it in Windows Explorer.
 
-More about batch files: 
+More about batch files: https://en.wikipedia.org/wiki/Batch_file
 
 ## Requirements
 

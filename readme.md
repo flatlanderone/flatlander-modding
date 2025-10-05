@@ -98,9 +98,14 @@ https://www.nexusmods.com/7daystodie/mods/7342
 
 ## Other Utilities
 
+### 7 Days To Die Default Mods Folder Finding Utility (new)
+
+A simple batch file that creates, if necessary, and opens the default 7 Days To Die `Mods` folder in `%APPDATA%\7DaysToDie`.
+
 ### GitHub Markdown to Nexusmods BBCode converter
 
 Convert ,MD files to Nexusmods BBCode
+
 https://miome.github.io/githubmd-to-nexusmodsbbcode/
 
 ### GitHub Wiki TOC generator
@@ -113,4 +118,14 @@ https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
 
 ### Robocopy to automate modlet installation
 
+https://ss64.com/nt/robocopy.html
+
 https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy
+
+## Development applications
+
+### Notepad++
+
+Advanced text editor.
+
+https://notepad-plus-plus.org/
