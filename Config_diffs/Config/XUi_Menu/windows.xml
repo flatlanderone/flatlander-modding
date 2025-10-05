@@ -2209,7 +2209,7 @@
 						
 						<controloption name="InvertMouseLookY" type="ComboBoxBool" localization_prefix="xuiComboYesNo" />
 
-						<controloption name="SprintLock" type="ComboBoxBool" localization_prefix="xuiComboYesNo" />
+						<controloption name="SprintLock" type="ComboBoxList`1[System.String]" values="Hold,Toggle,Autorun" localization_prefix="xuiSprintLock" />
 					</grid>
 				</rect>
 				
@@ -2345,7 +2345,7 @@
 
 						<controloption name="WeaponAiming" type="ComboBoxBool" localization_prefix="xuiWeaponAimingCombo" />
 
-						<controloption name="SprintLock" type="ComboBoxBool" localization_prefix="xuiComboYesNo" />
+						<controloption name="SprintLock" type="ComboBoxList`1[System.String]" values="Hold,Toggle,Autorun" localization_prefix="xuiSprintLock" />
 						
 						<controloption name="ControllerVibration" type="ComboBoxList`1[System.String]" values="Off, Subtle, Standard, Strong" localization_prefix="xuiControllerVibrationStrength" />
 

@@ -324,11 +324,7 @@
 		
 		<window_group name="woPropsPOIMarkers" defaultSelected="content">
 			<window name="woPropsPOIMarkers" />
-		</window_group>
-		
-		<window_group name="woPropsSleeperBlock" defaultSelected="content">
-			<window name="woPropsSleeperBlock" />
-		</window_group>
+		</window_group>	
 		
 		<window_group name="saveDirtyPrefab" defaultSelected="btnCancel">
 			<window name="saveDirtyPrefab" />

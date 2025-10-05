@@ -215,24 +215,29 @@
 <!-- *** BIOME_ZOMBIES_DESERT_GROUP -->
 	<entitygroup name="ZombiesDesert">
 		zombiePlagueSpitter
+		zombieMoe, .25
+		zombieFatHawaiian, .2
 		zombieSteveCrawler, .05
 	</entitygroup>
 
 	<entitygroup name="ZombiesDesertNight">
 		zombiePlagueSpitter
 		zombiePlagueSpitterFeral, .1
+		zombieBiker, .4
+		zombieBikerFeral, .1
 	</entitygroup>
 
 <!-- *** BIOME_ZOMBIES_SNOW_GROUP -->
 	<entitygroup name="ZombiesSnow">
 		zombieFrostclaw
-		zombieLumberjack, .05
+		zombieMoe, .25
+		zombieLumberjack, .25
 	</entitygroup>
 
 	<entitygroup name="ZombiesSnowNight">
 		zombieFrostclaw
 		zombieFrostclawFeral, .1
-		zombieLumberjack, .05
+		zombieLumberjack, .45
 		zombieLumberjackFeral, .05
 	</entitygroup>
 

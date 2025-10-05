@@ -886,6 +886,7 @@
 		short_description_key="challengeBurntKillZombieShort" description_key="challengeBurntKillZombieDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
 		<objective type="Kill" entity_names="zombieBurnt,zombieBurntFeral,zombieBurntRadiated,zombieBurntCharged,zombieBurntInfernal" count="5" biome="burnt_forest"/>
+		<objective type="KillByTag" entity_tags="allbiome,zombieAnimal,desert,snow,wasteland" target_name_key="xuiZombies" count="5" biome="burnt_forest"/>
 	</challenge>
 
 		<!-- *** 06_GATHER_BY_TAG_IN_BIOME -->
@@ -937,7 +938,8 @@
 	<challenge name="desertSurvivalKillZombie" title_key="challengeDesertKillZombie" icon="ui_game_symbol_zombie" group="Desert Survival"
 		short_description_key="challengeDesertKillZombieShort" description_key="challengeDesertKillZombieDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Kill" entity_names="zombiePlagueSpitter,zombiePlagueSpitterFeral,zombiePlagueSpitterRadiated,zombiePlagueSpitterCharged,zombiePlagueSpitterInfernal" count="10" biome="desert"/>
+		<objective type="Kill" entity_names="zombiePlagueSpitter,zombiePlagueSpitterFeral,zombiePlagueSpitterRadiated,zombiePlagueSpitterCharged,zombiePlagueSpitterInfernal" count="5" biome="desert"/>
+		<objective type="KillByTag" entity_tags="allbiome,zombieAnimal,burnt,snow,wasteland" target_name_key="xuiZombies" count="10" biome="desert"/>
 	</challenge>
 
 		<!-- *** 06_GATHER_BY_TAG_IN_BIOME -->
@@ -989,7 +991,8 @@
 	<challenge name="snowSurvivalKillZombie" title_key="challengeSnowKillZombie" icon="ui_game_symbol_zombie" group="Snow Survival"
 		short_description_key="challengeSnowKillZombieShort" description_key="challengeSnowKillZombieDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Kill" entity_names="zombieFrostclaw,zombieFrostclawFeral,zombieFrostclawRadiated,zombieFrostclawCharged,zombieFrostclawInfernal" count="15" biome="snow"/>
+		<objective type="Kill" entity_names="zombieFrostclaw,zombieFrostclawFeral,zombieFrostclawRadiated,zombieFrostclawCharged,zombieFrostclawInfernal" count="5" biome="snow"/>
+		<objective type="KillByTag" entity_tags="allbiome,zombieAnimal,burnt,desert,wasteland" target_name_key="xuiZombies" count="15" biome="snow"/>
 	</challenge>
 
 		<!-- *** 06_GATHER_BY_TAG_IN_BIOME -->
@@ -1041,7 +1044,8 @@
 	<challenge name="wastelandSurvivalKillZombie" title_key="challengeWastelandKillZombie" icon="ui_game_symbol_zombie" group="Wasteland Survival"
 		short_description_key="challengeWastelandKillZombieShort" description_key="challengeWastelandKillZombieDesc"
 		reward_text_key="challenge_reward_1000xp" reward_event="challenge_reward_1000">
-		<objective type="Kill" entity_names="zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieMutatedCharged,zombieMutatedInfernal" count="20" biome="wasteland"/>
+		<objective type="Kill" entity_names="zombieMutated,zombieMutatedFeral,zombieMutatedRadiated,zombieMutatedCharged,zombieMutatedInfernal" count="5" biome="wasteland"/>
+		<objective type="KillByTag" entity_tags="allbiome,zombieAnimal,burnt,desert,snow" target_name_key="xuiZombies" count="20" biome="wasteland"/>
 	</challenge>
 
 		<!-- *** 06_GATHER_BY_TAG_IN_BIOME -->

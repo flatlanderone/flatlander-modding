@@ -691,8 +691,12 @@
 		</effect_group>
 
 		<effect_group name="Loot Caps">
-			<triggered_effect trigger="onSelfBiomeLootStageMaxEntered" action="AddBuff" buff="buffLootStageCap"></triggered_effect>
-			<triggered_effect trigger="onSelfBiomeLootStageMaxExited" action="RemoveBuff" buff="buffLootStageCap"></triggered_effect>
+			<!-- No longer used. Keep for modding use? -->
+			<!-- <triggered_effect trigger="onSelfBiomeLootStageMaxEntered" action="AddBuff" buff="buffLootStageCap"></triggered_effect> -->
+			<!-- <triggered_effect trigger="onSelfBiomeLootStageMaxExited" action="RemoveBuff" buff="buffLootStageCap"></triggered_effect> -->
+			
+			<!-- Keep for old V2.1 B9 save game cleanup -->
+			<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="buffLootStageCap"></triggered_effect>
 			<triggered_effect trigger="onSelfLeaveGame" action="RemoveBuff" buff="buffLootStageCap"></triggered_effect>
 		</effect_group>
 	</buff>
@@ -1428,9 +1432,10 @@
 	<!-- *** buffLootStageCap -->
 	<!-- TRIGGERED_BY: buffStatusCheck01 -->
 	<!-- This buff is shown on the character status effects screen to display information about the player's current loot stage cap -->
+	
+	<!-- No longer used. Keep for old V2.1 B9 save game cleanup -->
 	<buff name="buffLootStageCap" name_key="buffLootStageCapName" description_key="buffLootStageCapDesc" icon="ui_game_loot_stage_bad" showonhud="false">
 		<stack_type value="ignore"/>
-
 	</buff>
 
 <!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
@@ -8796,19 +8801,6 @@
 
 		<effect_group>
 			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".15"/>
-		</effect_group>
-	</buff>
-
-	<!-- *** buffBandolierLegs -->
-	<!-- TRIGGERED_BY: item_modifiers = modArmorBandolier -->
-	<!-- Increases reload speed -->
-	<buff name="buffBandolierLegs" hidden="true">
-		<stack_type value="ignore"/>
-		<duration value="0"/>
-
-		<effect_group>
-			<requirement name="!HasBuff" buff="buffBandolierChest"/>
-				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".15"/>
 		</effect_group>
 	</buff>
 

@@ -84,8 +84,9 @@
 			<label depth="3" name="TextContent" pos="5,-14" font_size="42" color="[white]" style="outline" pivot="topleft" text="{locationname}" justify="center" width="330" height="60" />
 			<label depth="3" name="MessageContent" pos="0,-1" font_size="28" color="[white]" style="outline" pivot="topleft" text="{messagename}" justify="center" width="340" height="98" />
 
-			<sprite depth="2" pos="5, -60" name="windowicon" style="icon32px" sprite="ui_game_loot_stage_bad" visible="{visible_loot_max}"/>
-			
+			<!-- No longer used. Keep for modding. -->
+			<!-- <sprite depth="2" pos="5, -60" name="windowicon" style="icon32px" sprite="ui_game_loot_stage_bad" visible="{visible_loot_max}"/> -->
+
 			<grid padding="8,10" pos="170, -75" pivot="center" cols="8" cell_width="34" cell_height="32">
 				<sprite depth="2" name="windowicon" style="icon32px" sprite="ui_game_symbol_skull" color="{color1}" visible="{visible1}"/>
 				<sprite depth="2" name="windowicon" style="icon32px" sprite="ui_game_symbol_skull" color="{color2}" visible="{visible2}"/>
@@ -298,6 +299,8 @@
 			<label depth="2" name="lootName" pos="39,-6" width="172" height="32" text="{lootcontainer_name}" font_size="32" anchor_left="queue,0,39" anchor_right="queue,1,-230" />
 			
 			<rect anchor_left="queue,1,-300" anchor_right="queue,1,0" pivot="topleft" pos="0,0" controller="ContainerStandardControls" createuiwidget="true" visible="{buttons_visible}">
+				<button   depth="3" name="btnToggleLockMode"          sprite="ui_game_symbol_lock"     tooltip_key="xuiStashLockModeToggle"             pos="154, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" selected="{userlockmode}" visible="{hasslotlocks}" />
+
 				<button   depth="3" name="btnSort"             sprite="ui_game_symbol_sort"          tooltip_key="lblSortContainer"        pos="194, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
 				<button   depth="3" name="btnMoveAll"          sprite="ui_game_symbol_store_all_up"     tooltip="{take_all_tooltip}"          pos="274, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
 				<button   depth="3" name="btnMoveFillAndSmart" sprite="ui_game_symbol_store_similar_up" tooltip_key="xuiLootTakeFillAndSmart" pos="234, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
@@ -845,7 +848,7 @@
 			<label depth="3" name="windowName" pos="42,-6" width="180" height="32" text="INVENTORY" text_key="xuiInventory" font_size="32" />
 
 
-			<rect pos="320,0" width="300" controller="ContainerStandardControls" move_start_bottom_left="true" is_backpack="true">
+			<rect pos="320,0" width="300" controller="ContainerStandardControls" move_start_bottom_left="true">
 				<button depth="3" name="btnClearInventory" sprite="ui_game_symbol_trash" tooltip_key="lblClearInventory" pos="-45, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="{creativewindowopen}" defaultcolor="[iconColor]" hovercolor="[hoverColor]" selectedcolor="[selectedColor]" />
 
 				<button   depth="3" name="btnToggleLockMode"          sprite="ui_game_symbol_lock"     tooltip_key="xuiStashLockModeToggle"             pos="0, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" selected="{userlockmode}" />
@@ -1391,16 +1394,16 @@
 	<window name="mapAreaChooseWaypoint" depth="7" pos="200,-200" width="52" height="436" cursor_area="true" >
 		<panel name="content" depth="0" pos="0,0" height="436" backgroundcolor="[darkGrey]" bordercolor="[black]" borderthickness="3">
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
-			<grid name="list" rows="10" cols="1" pos="3,-3" width="46" height="430" cell_width="390" cell_height="43" repeat_content="true" arrangement="vertical" controller="MapSubPopupList">
+			<grid name="list" rows="10" cols="1" pos="3,-3" width="46" height="430" cell_width="52" cell_height="43" repeat_content="true" arrangement="vertical" controller="MapSubPopupList">
 				<map_popup_sub_line name="0"/>
 			</grid>
 		</panel>
 	</window>
 
-	<window name="mapAreaEnterWaypointName" depth="7" pos="200,-200" width="160" height="50" cursor_area="true">
+	<window name="mapAreaEnterWaypointName" depth="8" pos="200,-200" width="160" height="50" cursor_area="true">
 		<panel name="content" depth="0" pos="0,0" height="46" backgroundcolor="[darkGrey]" bordercolor="[black]" borderthickness="3" controller="MapEnterWaypoint">
 			<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
-			<panel pos="13,-8" depth="1" width="160" disableautobackground="true">
+			<panel pos="10,-8" depth="1" width="160" disableautobackground="true">
 				<textfield depth="1" name="waypointInput" pos="0,0" width="140" height="30" character_limit="30" virtual_keyboard_prompt="vkPromptWaypointName" />
 			</panel>
 		</panel>
@@ -1778,6 +1781,8 @@
 			<label depth="2" name="lootName" pos="39,-6" width="172" height="32" text_key="xuiVehicleStorage" font_size="32" anchor_left="queue,0,39" anchor_right="queue,1,-230" />
 
 			<rect anchor_left="queue,1,-300" anchor_right="queue,1,0" pivot="topleft" pos="0,0" controller="ContainerStandardControls" createuiwidget="true" visible="{buttons_visible}">
+				<button   depth="3" name="btnToggleLockMode"   sprite="ui_game_symbol_lock"          tooltip_key="xuiStashLockModeToggle"  pos="154, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" selected="{userlockmode}" visible="{hasslotlocks}" />
+
 				<button   depth="3" name="btnSort"             sprite="ui_game_symbol_sort"          tooltip_key="lblSortContainer"        pos="194, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
 				<button   depth="3" name="btnMoveAll"          sprite="ui_game_symbol_store_all_up"     tooltip="{take_all_tooltip}"          pos="274, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
 				<button   depth="3" name="btnMoveFillAndSmart" sprite="ui_game_symbol_store_similar_up" tooltip_key="xuiLootTakeFillAndSmart" pos="234, -22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
@@ -2621,7 +2626,8 @@
 		<sprite pos="0,6" name="Background" sprite="menu_empty" color="[darkestGrey]" height="46" width="250" type="sliced" />
 		<sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,6" width="250" height="46" color="[black]" type="sliced" fillcenter="false" />
 		<label depth="3" text="{locationname}" font_size="20" justify="center" pos="6,2" height="28" />
-		<sprite depth="2" pos="5, -20" name="windowicon" width="16" height="16" sprite="ui_game_loot_stage_bad" visible="{visible_loot_max}" />
+		<!-- No longer used. Keep for modding. -->
+		<!-- <sprite depth="2" pos="5, -20" name="windowicon" width="16" height="16" sprite="ui_game_loot_stage_bad" visible="{visible_loot_max}" /> -->
 		<grid pos="125, -28" pivot="center" cols="8" cell_width="18" cell_height="16">
 			<sprite depth="2" name="windowicon" width="16" height="16" sprite="ui_game_symbol_skull" color="{difficultycolor1}" visible="{visible1}" />
 			<sprite depth="2" name="windowicon" width="16" height="16" sprite="ui_game_symbol_skull" color="{difficultycolor2}" visible="{visible2}"/>
@@ -3960,76 +3966,6 @@
 			</panel>
 
 		</panel>
-	</window>
-
-	<window name="woPropsSleeperBlock" anchor="CenterTop" pos="-500,-80" width="1000" height="800" controller="WoPropsSleeperBlock" cursor_area="true">
-		<panel name="header" pos="0,0" height="43" depth="1" disableautobackground="true" >
-			<sprite depth="1" name="backgroundMain" sprite="menu_empty3px" pos="0,0" height="43" color="[black]" type="sliced" fillcenter="true" globalopacity="true" globalopacitymod="0.7" />
-			<label style="header.name" pos="6,-6" text_key="xuiSleeperBlockProps" />
-		</panel>
-		<panel name="content" pos="0,-46" height="750" depth="1" pivot="center" disableautobackground="true" >
-			<sprite depth="6" name="border" sprite="menu_empty3px" pos="0,0" height="750" color="[black]" type="sliced" fillcenter="false" globalopacity="true" globalopacitymod="0.9" />
-			<sprite depth="1" name="backgroundMain" sprite="menu_empty3px" pos="2,-2" height="746" width="995" color="[darkGrey]" type="sliced" fillcenter="true" globalopacity="true" globalopacitymod="0.65" />
-
-			<table depth="2" columns="2" padding="10,10">
-				<label text_key="xuiSleeperBlockPriorityMultiplier" width="220" height="30" justify="right" pivot="topleft" on_hover="true" tooltip_key="xuiSleeperBlockPriorityMultiplierTip" />
-				<combobox name="cbxPriority" type="ComboBoxList`1[XUiC_WoPropsSleeperBlock+PriorityMultiplier]" width="240" height="30" />
-
-				<label text_key="xuiSleeperBlockSightRange" width="220" height="30" justify="right" pivot="topleft" on_hover="true" tooltip_key="xuiSleeperBlockSightRangeTip"/>
-				<rect>
-					<textfield name="txtSightRange" pos="32,0" width="176" height="30" pivot="topleft" validation="integer"/>
-				</rect>
-
-				<label text_key="xuiSleeperBlockHearingPercent" width="220" height="30" justify="right" pivot="topleft" on_hover="true" tooltip_key="xuiSleeperBlockHearingPercentTip"/>
-				<rect>
-					<textfield name="txtHearingPercent" pos="32,0" width="176" height="30" pivot="topleft" validation="integer"/>
-					<label pos="210,0" width="30" height="30" pivot="topleft" text="%" />
-				</rect>
-
-				<label text_key="xuiSleeperBlockSightAngle" width="220" height="30" justify="right" pivot="topleft" on_hover="true" tooltip_key="xuiSleeperBlockSightAngleTip"/>
-				<rect>
-					<textfield name="txtSightAngle" pos="32,0" width="176" height="30" pivot="topleft" validation="integer"/>
-				</rect>
-
-				<rect />
-				<rect>
-					<simplebutton name="btnMonsterCloset" pos="0,0" width="240" height="32" caption_key="xuiSleeperBlockMonsterCloset" on_hover="true" tooltip_key="xuiSleeperBlockMonsterClosetTip" />
-				</rect>
-
-				<rect />
-				<rect>
-					<simplebutton name="btnDefaults" pos="0,0" width="240" height="32" caption_key="xuiDefaults" />
-				</rect>
-
-				<!--
-					1) "Spawn Priority" 0.5 - 5  (float, steps of 0.5, default=1 )
-					  Spawn Selection Priority Multiplier.
-					  This particular spawn spot is weighted with a higher number when selecting spots.
-
-					2) "Sleeper Sight Range" 1-30m   (int, default=10m)
-					  This will have to be a new entity property.
-					  Does the exact same thing as SightRange... but sleepers will use  SleeperSightRange  instead.
-
-					3) "Hearing %"  (float, displayed as %, internally a value 0 - x,  1 = 100%,  default=1 )
-					This % modifies  SleeperNoiseSenseThreshold,  SleeperNoiseWakeThreshold.
-
-					SleeperNoiseWakeThreshold effective = SleeperNoiseWakeThreshold / Hearing%
-					SleeperNoiseSenseThreshold effective = SleeperNoiseSenseThreshold / Hearing%
-
-					4) Sleeper Sight Angle (int, default=90°)
-					Not exposed to XML and not really needed to be.  Sleepers (supposedly) all have a 90° sight angle.
-
-					5) Monster Closet (button, not a bool)
-					This button would do nothing other than writing predetermined "good" default values in the other fields to quickly set up a Monster Closet Guy.
-					May need another button to load the defaults after the designer has tinkered with the values and got lost.
-				-->
-			</table>
-		</panel>
-
-		<grid depth="2" rows="1" cols="2" pos="690, -800" height="32" cell_width="160" cell_height="32" repeat_content="false" arrangement="horizontal">
-			<simplebutton name="btnCancel" depth="3" width="150" height="32" caption_key="xuiCancel" />
-			<simplebutton name="btnSave" depth="3" width="150" height="32" caption_key="xuiSave" />
-		</grid>
 	</window>
 
   <window name="lightProperties" anchor="RightTop" pos="-700,-80" width="600" height="1000" controller="LightEditor" cursor_area="true">
