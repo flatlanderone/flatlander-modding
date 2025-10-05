@@ -98,8 +98,8 @@ https://www.nexusmods.com/7daystodie/mods/7342
 ### Semantic versioning for 7 Days To Die
 
 #### From Karl Giesing:
-
-```I am adopting something similar to Semantic Versioning 2.0, except with four numbers rather than three.
+```
+I am adopting something similar to Semantic Versioning 2.0, except with four numbers rather than three.
 Here is what each number means:
 
 7 Days To Die major version (2 in version 2.0) on which the mod was developed and tested
@@ -115,9 +115,8 @@ Examples:
 The mod is developed on 7D2D version 2.0.
 This is the first public release of the mod.
 Version:
-
-2.0.1.0```
-
+2.0.1.0
+```
 Source: https://gitlab.com/karlgiesing/7d2d-2.0-mods#mod-versioning
 
 ### 7 Days To Die Default Mods Folder Finding Utility (new)
