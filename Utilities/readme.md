@@ -1,6 +1,6 @@
 # Batch Utilities
 
-## 7 Days To Die Default Mods Folder Finding Utility (new)
+## Find Default Mods Folder Utility aka 7 Days To Die Default Mods Folder Finding Utility (new)
 
 A simple batch file that creates, if necessary, and opens the default 7 Days To Die `Mods` folder in `%APPDATA%\7DaysToDie`.
 
