@@ -1,4 +1,4 @@
-# Modding utilities and resources for 7 Days to DIe (2025-10-04_01 update)
+# Modding utilities and resources for 7 Days to DIe (2025-10-06 update)
 
 - [My Utility Modlet Pack](#my-utility-modlet-pack)
 
