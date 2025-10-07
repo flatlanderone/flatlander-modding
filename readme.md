@@ -1,4 +1,4 @@
-# Modding utilities and resources for 7 Days to DIe (2025-10-04_01 update)
+# Modding utilities and resources for 7 Days to DIe (2025-10-06 update)
 
 - [My Utility Modlet Pack](#my-utility-modlet-pack)
 
@@ -152,3 +152,8 @@ https://learn.microsoft.com/en-us/windows-server/administration/windows-commands
 Advanced text editor.
 
 https://notepad-plus-plus.org/
+
+## Tutorials
+## 7 Days to Die A21 XML Modding Tutorial for Beginners by Max Fox
+
+https://youtube.com/playlist?list=PLfY-5aBkL7v_C5XQ4VplyOwYsxjDZEbJm&si=vtOKj42Asb2nUhTn
