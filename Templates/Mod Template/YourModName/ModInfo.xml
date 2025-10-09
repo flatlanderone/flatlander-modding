@@ -3,7 +3,7 @@
 	<Name value="YourModName" /> <!-- no spaces -->
 	<DisplayName value="Your Mod Name" />
 	<Description value="What does your mod do." />
-	<Author value="your nick" />
-	<Version value="0.1.0.0" />
-	<Website value="your github profile link" />
+	<Author value="flatlander" />
+	<Version value="2.4.1.0" />
+	<Website value="https://github.com/flatlanderone" />
 </xml>
