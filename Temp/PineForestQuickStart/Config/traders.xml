@@ -1,8 +1,0 @@
-<ramblingman>
-<conditional>
-<if cond="mod_loaded('ParentMod') and mod_version('ParentMod') >= version(2,4,0,0)">
-
-
-</if>
-</conditional>
-</ramblingman>
