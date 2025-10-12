@@ -1,20 +1,8 @@
-# Changelog
+# Flatlander's Modding Utilities - 2025-10-12 release
 
-```
-## 2025-10-12
-### Added
-- Teleport To Traders Dev 2.4.1.0-beta
-### Changed
-- All modlets and tools are now in a single file.
+## About
 
-## 2025-10-04
-## Added 
-- Skip Basics of Survival Dev Note On Spawn
-```
-<hr>
-# Utility Modlets and Batch Tools - 2025-10-12 release
-
-Github: https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities
+This is my growing collection of modlets I use for development and testing.
 
 ## 1. Any Starting Trader 
 Your starting trader is the closest trader in the biome in which you complete the Basics of Survival challenges.
@@ -47,3 +35,17 @@ A simple batch file that creates, if necessary, and opens the default 7 Days To 
 
 # Bug reports and feature suggestions
 - [GitHub](https://github.com/flatlanderone/flatlander-releases/issues).
+
+# Changelog
+
+```
+## 2025-10-12
+### Added
+- Teleport To Traders Dev 2.4.1.0-beta
+### Changed
+- All modlets and tools are now in a single file.
+
+## 2025-10-04
+## Added 
+- Skip Basics of Survival Dev Note On Spawn
+```
