@@ -1,7 +1,6 @@
 # Changelog
 
 ```
-
 ## 2025-10-12
 ### Added
 - Teleport To Traders Dev 2.4.1.0-beta
@@ -11,7 +10,6 @@
 - Skip Basics of Survival Dev Note On Spawn
 ```
 <hr>
-
 # Utility Modlets and Batch Tools - 2025-10-12 release
 
 Github: https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities
@@ -47,4 +45,4 @@ Adds to inventory on first spawn 2 bundles of teleports:
 A simple batch file that creates, if necessary, and opens the default 7 Days To Die `Mods` folder in `%APPDATA%\7DaysToDie`.
 
 # Bug reports and feature suggestions
-- [GitHub](https://github.com/flatlanderone/flatlander-releases/issues) (preferred).
+- [GitHub](https://github.com/flatlanderone/flatlander-releases/issues).
