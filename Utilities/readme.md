@@ -1,14 +1,21 @@
+```# Changelog
+
+## 2025-10-12
+### Added
+- Teleport To Traders Dev 2.4.1.0-beta
+
+## 2025-10-04
+## Added 
+- Skip Basics of Survival Dev Note On Spawn```
+
+<hr>
 # Batch Utilities
 
-## Find Default Mods Folder Utility aka 7 Days To Die Default Mods Folder Finding Utility (new)
+## Find Default Mods Folder Utility
 
 A simple batch file that creates, if necessary, and opens the default 7 Days To Die `Mods` folder in `%APPDATA%\7DaysToDie`.
 
-# Flatlander's Utility Modlet Pack 2.3.0.4
-
-## About
-
-The Modlet Pack contains my growing collection of modlets I use for development and testing.
+# Utility Modlets (as of 2025-10-12)
 
 ## 1. Any Starting Trader 
 
@@ -38,28 +45,14 @@ Adds to inventory the Skip Basics of Survival dev note on first spawn. Reading t
 
 Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
 
+### 8. Teleport To Traders Dev 2.4.1.0-beta
+
+Adds to inventory on first spawn 2 bundles of teleports:
+
+- 5 Navezgane teleports that will teleport you to the chosen trader's front door. Use in Navezgane 2.4.
+- 5 helipad teleports that will teleport you to the center of the chosen trader's helipad. They work with any custom or rwg world.
+
 # Bug reports and feature suggestions
 
 - [GitHub](https://github.com/flatlanderone/flatlander-releases/issues) (preferred).
 
-- This mod's page on Nexus Mods.
-
-# About this mod
-
-- **Author**: Flat Lander - [GitHub](https://github.com/flatlanderone) / [Nexus Mods](https://next.nexusmods.com/profile/flatlanderone)
-
-- **Download page**: [Flatlander's Utility Modlet Pack](https://www.nexusmods.com/7daystodie/mods/8769)
-
-- **Version**: 2.3.0.4
-
-- **Initial release**: 2025-10-04 (2.3.0.4)
-
-# Changelog for 2.3.0.4
-
-## Added 
-
-- Skip Basics of Survival Dev Note On Spawn
-
-## Fixed
-
-- Typos
