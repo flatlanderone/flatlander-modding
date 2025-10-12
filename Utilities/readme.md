@@ -37,7 +37,6 @@ Adds to inventory the Tester's Delight note on first spawn. Reading the note add
 
 ## 8. Teleport To Traders Dev 2.4.1.0-beta
 Adds to inventory on first spawn 2 bundles of teleports:
-
 - 5 Navezgane teleports that will teleport you to the chosen trader's front door. Use in Navezgane 2.4.
 - 5 helipad teleports that will teleport you to the center of the chosen trader's helipad. They work with any custom or rwg world.
 
