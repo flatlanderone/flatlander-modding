@@ -1,0 +1,651 @@
+<ramblingman>
+
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') and mod_version('0-SCore_sphereii') >= version(2,4,11,1222)">
+
+<append xpath="/quests">
+
+<quest id="q_goToPOI_trader_rekt_navezgane_24">
+    <property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    
+    <property name="name_key" value="q_goToPOI_trader_rekt"/>
+    <property name="subtitle_key" value="q_goToPOI_trader_rekt_subtitle"/>
+    <property name="description_key" value="q_goToPOI_trader_rekt_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI_trader_rekt_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<property name="PrefabName" value="trader_rekt"/>
+	</objective>	
+
+	<action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<property name="offset" value="34,0,34" />
+	</action>	
+
+	<!-- <action type="Teleport, SCore"> -->
+		
+	<!-- </action> -->
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+
+    <reward type="Exp" value="1"/>
+</quest>
+
+
+<quest id="q_goToPOI_trader_rekt_helipad">
+    <property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    <property name="name_key" value="q_goToPOI_trader_rekt"/>
+    <property name="subtitle_key" value="q_goToPOI_trader_rekt_subtitle"/>
+    <property name="description_key" value="q_goToPOI_trader_rekt_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI_trader_rekt_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<property name="PrefabName" value="trader_rekt"/>
+	</objective>	
+
+	<action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<property name="offset" value="0,0,0" />
+	</action>	
+
+	<action type="Teleport, SCore">
+		<property name="block" value="helipad" />
+		<property name="phase" value="1" />
+		<property name="delay" value="6" />
+		<property name="offset" value="0,0,0" />
+	</action>
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+
+    <reward type="Exp" value="1"/>
+</quest>
+
+<quest id="q_goToPOI_trader_jen_navezgane_24">
+	<property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    <property name="name_key" value="q_goToPOI_trader_jen"/>
+    <property name="subtitle_key" value="q_goToPOI_trader_jen_subtitle"/>
+    <property name="description_key" value="q_goToPOI_trader_jen_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI_trader_jen_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<property name="PrefabName" value="trader_jen"/>
+	</objective>	
+
+   <action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<property name="offset" value="15,0,33" />
+				
+	</action>	
+<!-- 	<action type="Teleport, SCore">
+		
+	</action> -->
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+
+    <reward type="Exp" value="2"/>
+
+</quest>
+
+
+<quest id="q_goToPOI_trader_jen_helipad">
+	<property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    <property name="name_key" value="q_goToPOI_trader_jen"/>
+    <property name="subtitle_key" value="q_goToPOI_trader_jen_subtitle"/>
+    <property name="description_key" value="q_goToPOI_trader_jen_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI_trader_jen_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<property name="PrefabName" value="trader_jen"/>
+	</objective>	
+
+   <action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<property name="offset" value="0,0,0" />
+				
+	</action>	
+
+<!-- second teleport -->
+
+	<action type="Teleport, SCore">
+		<property name="block" value="helipad" />
+		<property name="phase" value="1" />
+		<property name="delay" value="6" />
+		<property name="offset" value="0,0,0" />
+	</action>
+
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+
+    <reward type="Exp" value="2"/>
+
+</quest>
+
+<quest id="q_goToPOI_trader_bob_navezgane_24">
+	<property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    <property name="name_key" value="q_goToPOI_trader_bob"/>
+    <property name="subtitle_key" value="q_goToPOI_trader_bob_subtitle"/>
+    <property name="description_key" value="q_goToPOI_trader_bob_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI_trader_bob_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<property name="PrefabName" value="trader_bob"/>
+	</objective>	
+
+   <action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<!-- <property name="offset" value="20,0,33" /> -->
+		<property name="offset" value="34,0,20" />
+	</action>	
+	
+	<action type="Teleport, SCore">
+		
+	</action>
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+    <reward type="Exp" value="3"/>
+</quest>
+
+
+<quest id="q_goToPOI_trader_bob_helipad">
+	<property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    <property name="name_key" value="q_goToPOI_trader_bob"/>
+    <property name="subtitle_key" value="q_goToPOI_trader_bob_subtitle"/>
+    <property name="description_key" value="q_goToPOI_trader_bob_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI_trader_bob_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<property name="PrefabName" value="trader_bob"/>
+	</objective>	
+
+   <action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<property name="offset" value="0,0,0" />
+	</action>	
+	
+	<action type="Teleport, SCore">
+		<property name="block" value="helipad" />
+		<property name="phase" value="1" />
+		<property name="delay" value="6" />
+		<property name="offset" value="0,0,0" />
+	</action>
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+    <reward type="Exp" value="3"/>
+</quest>
+
+<quest id="q_goToPOI_trader_hugh_navezgane_24">
+	<property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    <property name="name_key" value="q_goToPOI_trader_hugh"/>
+    <property name="subtitle_key" value="q_goToPOI_trader_hugh_subtitle"/>
+    <property name="description_key" value="q_goToPOI_trader_hugh_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI_trader_hugh_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<property name="PrefabName" value="trader_hugh"/>
+	</objective>	
+
+   <action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<property name="offset" value="27,0,27" />
+	</action>	
+	
+<!-- 	<action type="Teleport, SCore">
+		
+	</action> -->
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+    <reward type="Exp" value="4"/>
+</quest>
+
+
+
+<quest id="q_goToPOI_trader_hugh_helipad">
+	<property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    <property name="name_key" value="q_goToPOI_trader_hugh"/>
+    <property name="subtitle_key" value="q_goToPOI_trader_hugh_subtitle"/>
+    <property name="description_key" value="q_goToPOI_trader_hugh_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI_trader_hugh_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<property name="PrefabName" value="trader_hugh"/>
+	</objective>	
+
+   <action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<property name="offset" value="0,0,0" />
+	</action>	
+	
+	<action type="Teleport, SCore">
+		<property name="block" value="helipad" />
+		<property name="phase" value="1" />
+		<property name="delay" value="6" />
+		<property name="offset" value="0,0,0" />
+	</action>
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+    <reward type="Exp" value="4"/>
+</quest>
+
+<quest id="q_goToPOI_trader_joel_navezgane_24">
+	<property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    <property name="name_key" value="q_goToPOI_trader_joel"/>
+    <property name="subtitle_key" value="q_goToPOI_trader_joel_subtitle"/>
+    <property name="description_key" value="q_goToPOI_trader_joel_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI_trader_joel_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<property name="PrefabName" value="trader_joel"/>
+	</objective>	
+
+   <action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<!-- <property name="offset" value="27,0,27" /> -->
+		<property name="offset" value="22,0,20" />
+	</action>	
+	
+<!-- 	<action type="Teleport, SCore">
+		<property name="block" value="radioHam" />
+		<property name="phase" value="1" />
+		<property name="delay" value="6" />
+		<property name="offset" value="2,0,2" />
+	</action> -->
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+    <reward type="Exp" value="5"/>
+</quest>
+
+
+
+<quest id="q_goToPOI_trader_joel_helipad">
+	<property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    <property name="name_key" value="q_goToPOI_trader_joel"/>
+    <property name="subtitle_key" value="q_goToPOI_trader_joel_subtitle"/>
+    <property name="description_key" value="q_goToPOI_trader_joel_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI_trader_joel_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<property name="PrefabName" value="trader_joel"/>
+	</objective>	
+
+   <action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<!-- <property name="offset" value="27,0,27" /> -->
+		<property name="offset" value="0,0,0" />
+	</action>	
+	
+	<action type="Teleport, SCore">
+		<property name="block" value="helipad" />
+		<property name="phase" value="1" />
+		<property name="delay" value="6" />
+		<property name="offset" value="0,0,0" />
+	</action>
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+    <reward type="Exp" value="5"/>
+</quest>
+
+<!-- testing values  -->
+<quest id="q_goToPOI">
+    <property name="group_name_key" value="q_goToPOI_teleport_to_traders"/>
+    <property name="name_key" value="q_goToPOI1"/>
+    <property name="subtitle_key" value="q_goToPOI1_subtitle"/>
+    <property name="description_key" value="q_goToPOI1_description"/>
+    <property name="icon" value="ui_game_symbol_book"/>
+    <property name="category_key" value="quest"/>
+    <property name="offer_key" value="q_goToPOI1_offer"/>
+    <property name="difficulty" value="veryeasy"/>
+    <property name="shareable" value="false"/>
+    <property name="add_to_tier_complete" value="false"/>
+    <property name="repeatable" value="false"/>
+ 
+
+	<action type="TrackQuest"/>
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetoblack" />
+		<!-- <property name="on_complete" value="true"/> -->
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<property name="delay" value="1"/>				
+	</action>	
+ 	<!-- <action type="GameEvent" event="BlankScreen" delay="1" phase="1" /> -->
+<!--     <action type="GiveBuffSDX, SCore">
+        <property name="value" value="questBuff_teleport"/>
+        <property name="on_complete" value="false"/>
+        <property name="phase" value="1"/>
+    </action> -->
+    <!-- <objective type="GotoPOISDX, SCore" value="200-8000" phase="1">
+        <property name="completion_distance" value="50"/>
+        <property name="PrefabName" value="trader_rekt"/>
+    </objective> -->
+	
+	<!-- <objective type="GotoPOISDX, SCore" value="200-8000" phase="1"> -->
+	<objective type="GotoPOISDX, SCore" value="100-16000" phase="1">
+		<property name="completion_distance" value="50"/>
+		<!-- <property name="PrefabName" value="trader_jen"/> -->
+		<!-- offset works  -->
+
+
+<!-- offset 30,0,30 on roof	 -->
+	<!-- <property name="PrefabName" value="trader_bob"/> -->
+		<!-- <property name="PrefabName" value="trader_hugh"/> -->
+		<property name="PrefabName" value="trader_rekt"/> 	<!-- offset works  -->
+		<!-- <property name="PrefabName" value="trader_joel"/> -->
+			
+		
+		<!-- <property name="PrefabName" value="downtown_filler_07"/> -->
+	</objective>	
+	<!-- First teleport to target POI -->
+   <action type="Teleport, SCore">
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<!-- <property name="offset" value="0,0,0" /> -->
+		<!-- <property name="offset" value="30,0,30" /> -->
+		<property name="offset" value="32,0,32" />
+		<!-- <property name="offset" value="15,0,15" /> rooftop -->
+		<!-- <property name="offset" value="45,4,48" /> -->
+		<!-- <property name="offset" value="45,4,48" />  -->
+		<!-- helipad -->
+		<!-- <property name="block" value="radioHam" /> -->
+		
+	</action>	
+	<action type="Teleport, SCore">
+		<!-- <property name="block" value="radioHam" /> -->
+		<!-- <property name="block" value="cntVendingMachineTrader" /> -->
+		<!-- <property name="block" value="signTraderHughInterior" /> -->
+		<!-- <property name="block_tag" value="TeleportTarget" /> -->
+<!-- 		<property name="phase" value="1" />
+		<property name="delay" value="6" /> -->
+		<!-- <property name="offset" value="0,0,0" /> -->
+		<!-- <property name="offset" value="3,3,3" /> -->
+	</action>
+
+	<action type="GiveBuffSDX, SCore">
+		<property name="value" value="buff_fadetowhite" />
+		<property name="on_complete" value="true"/>
+		<!-- <property name="on_complete" value="false"/> -->
+		<property name="phase" value="1" />
+		<!-- <property name="delay" value="3"/>				 -->
+		<property name="delay" value="1"/>				
+	</action>		
+	
+	
+<!-- 	<action type="Teleport, SCore">
+		<property name="block" value="questRallyMarker" />
+		<property name="phase" value="1" />
+		<property name="delay" value="6" />
+		<property name="offset" value="0,0,0" />
+	</action> -->
+<!-- 		<action type="Teleport, SCore">
+		<property name="block" value="chainlinkGateDoubleWide" />
+		<property name="phase" value="1" />
+		<property name="delay" value="6" />
+		<property name="offset" value="0,0,0" />
+	</action> -->
+	
+	
+<!-- 	<action type="Teleport, SCore">
+		<property name="block" value="radioHam" />
+		<property name="phase" value="1" />
+		<property name="delay" value="5" />
+		<property name="offset" value="0,0,0" />
+	</action> -->
+	
+<!-- 	<action type="Teleport, SCore">
+		<property name="block" value="piano" />
+		<property name="phase" value="2" />
+		<property name="delay" value="6" />
+		<property name="offset" value="0,0,0" />
+	</action> -->
+<!-- <action type="GameEvent" event="ClearScreenScreen" delay="1" phase="2" />	 -->
+    <reward type="Exp" value="1"/>
+</quest>
+
+
+
+
+</append>
+
+</if>
+</conditional>
+
+</ramblingman>

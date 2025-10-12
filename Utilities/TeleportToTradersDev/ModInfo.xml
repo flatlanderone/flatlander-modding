@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="TeleportToTradersDev" /> <!-- no spaces -->
+	<DisplayName value="TeleportToTradersDev" />
+	<Description value="TeleportToTradersDev" />
+	<Author value="flatlander" />
+	<Version value="2.4.1.0-beta" />
+	<Website value="https://github.com/flatlanderone" />
+</xml>

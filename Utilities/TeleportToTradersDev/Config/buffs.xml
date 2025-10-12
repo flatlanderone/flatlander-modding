@@ -1,0 +1,30 @@
+<RamblingMan>
+
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') and mod_version('0-SCore_sphereii') >= version(2,4,11,1222)">
+
+<append xpath="/buffs">
+<!-- Attach fadetoblack to a buff  -->
+	<buff name="buff_fadetoblack" description="buff_fadetoblack" icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<!-- <duration value="5"/> -->
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="TeleportFadeToBlack" />
+		</effect_group>
+	</buff>	
+
+<!-- Attach fadetowhite to a buff  -->
+	<buff name="buff_fadetowhite" description="buff_fadetowhite" icon="ui_game_symbol_lightbulb" icon_color="255,175,175" hidden="true">
+		<stack_type value="ignore"/>
+		<duration value="1"/>
+		<effect_group>
+			<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="TeleportFadeToWhite" />
+		</effect_group>
+	</buff>	
+</append>
+
+</if>
+</conditional>
+
+</RamblingMan>		

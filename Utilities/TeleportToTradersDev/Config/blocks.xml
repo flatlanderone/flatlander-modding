@@ -1,0 +1,21 @@
+<ramblingman>
+
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') and mod_version('0-SCore_sphereii') >= version(2,4,11,1222)">
+
+<!-- <append xpath="/blocks/block[@name='cntVendingMachineTrader']">
+
+<property name="Tags" value="TeleportTarget"/>
+
+</append> -->
+
+<!-- tableCommunion / Jen -->
+<!-- <append xpath="/blocks/block[@name='tableCommunion']">
+
+<property name="Tags" value="TeleportTarget"/>
+
+</append> -->
+
+</if>
+</conditional>
+</ramblingman>

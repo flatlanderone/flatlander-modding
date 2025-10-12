@@ -1,0 +1,35 @@
+<ramblingman>
+
+<conditional>
+<if cond="mod_loaded('0-SCore_sphereii') and mod_version('0-SCore_sphereii') >= version(2,4,11,1222)">
+
+<!-- Remove the Duke Note tooltip and status entry. -->
+<remove xpath="/gameevents/action_sequence[@name='game_first_spawn']" />
+
+<!-- Add FadeToBlack and FadeToWhite game events. -->
+<append xpath="/gameevents">
+	<action_sequence name="TeleportFadeToBlack">
+		<action class="SetScreenEffect">
+			<property name="phase" value="1" />
+			<property name="screen_effect" value="FadeToBlack" />
+			<property name="intensity" value="1" />
+			<!-- <property name="fade_time" value="0.05" /> -->
+			<property name="fade_time" value="1" />
+		</action>
+	</action_sequence>
+	
+	<action_sequence name="TeleportFadeToWhite">
+			<action class="SetScreenEffect">
+				<property name="phase" value="1" />
+				<property name="screen_effect" value="FadeToBlack" />
+				<property name="intensity" value="0" />
+				<property name="fade_time" value="1" />
+			</action>
+	</action_sequence>
+	
+</append>
+
+</if>
+</conditional>
+
+</ramblingman>
