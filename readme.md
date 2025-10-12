@@ -75,12 +75,12 @@ Combat feedback mod. See dynamic damage numbers pop from enemy body parts with u
 
 https://www.nexusmods.com/7daystodie/mods/7548
 
-### Reset Trader's Quests by 0xSteel
+## Reset Trader's Quests by 0xSteel
 Resets a trader's quest list without turning on dev tools.
 
 https://www.nexusmods.com/7daystodie/mods/4715
 
-### V2 Traders Always Open by arramus
+## V2 Traders Always Open by arramus
 (V2) Traders Always Open Mod allows players to enter the trader compounds at any time (except Horde Night with a base game update for V2.1~) without being kicked out. A trader message at midnight lets players know a new day has begun when in range of the trader speaker. Server Side Only.
 
 https://www.nexusmods.com/7daystodie/mods/7342
