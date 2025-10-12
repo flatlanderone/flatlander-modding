@@ -1,4 +1,4 @@
-# Modding utilities and resources for 7 Days to DIe (2025-10-12)
+# Modding utilities and resources for 7 Days to Die (2025-10-12)
 
 - [My Utility Modlets and Tools](#my-utility-modlets-and-tools)
   - [1. Any Starting Trader](#1-any-starting-trader)
@@ -14,22 +14,21 @@
   - [0-Score](#0-score)
   - [Reset Trader's Quests by 0xSteel](#reset-traders-quests-by-0xsteel)
   - [LiveReloader by TianYi](#livereloader-by-tianyi)
-    - [Usage](#usage)
   - [Skip News Screen - V2.3 b9 by w00kie n00kie](#skip-news-screen---v23-b9-by-w00kie-n00kie)
   - [Damage Numbers by jucah.ai](#damage-numbers-by-jucahai)
   - [Reset Trader's Quests by 0xSteel](#reset-traders-quests-by-0xsteel-1)
   - [V2 Traders Always Open by arramus](#v2-traders-always-open-by-arramus)
 - [Other Utilities](#other-utilities)
   - [Semantic versioning for 7 Days To Die](#semantic-versioning-for-7-days-to-die)
-    - [From Karl Giesing:](#from-karl-giesing)
   - [GitHub Markdown to Nexusmods BBCode converter](#github-markdown-to-nexusmods-bbcode-converter)
-    - [GitHub Wiki TOC generator](#github-wiki-toc-generator)
-    - [Markdown All in One - Markdown Support for Visual Studio Code](#markdown-all-in-one---markdown-support-for-visual-studio-code)
-    - [Robocopy to automate modlet installation](#robocopy-to-automate-modlet-installation)
-  - [Development applications](#development-applications)
-    - [Notepad++](#notepad)
-  - [Tutorials](#tutorials)
+  - [GitHub Wiki TOC generator](#github-wiki-toc-generator)
+  - [Markdown All in One - Markdown Support for Visual Studio Code](#markdown-all-in-one---markdown-support-for-visual-studio-code)
+  - [Robocopy to automate modlet installation](#robocopy-to-automate-modlet-installation)
+- [Development applications](#development-applications)
+  - [Notepad++](#notepad)
+- [Modding Tutorials](#modding-tutorials)
   - [7 Days to Die A21 XML Modding Tutorial for Beginners by Max Fox](#7-days-to-die-a21-xml-modding-tutorial-for-beginners-by-max-fox)
+
 
 # My Utility Modlets and Tools
 The modlets and tools I use for development and testing.
@@ -145,26 +144,27 @@ Convert .MD files to Nexusmods BBCode.
 
 https://miome.github.io/githubmd-to-nexusmodsbbcode/
 
-### GitHub Wiki TOC generator
+## GitHub Wiki TOC generator
 https://ecotrust-canada.github.io/markdown-toc/
 
-### Markdown All in One - Markdown Support for Visual Studio Code
+## Markdown All in One - Markdown Support for Visual Studio Code
 
 https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
 
-### Robocopy to automate modlet installation
+## Robocopy to automate modlet installation
 https://ss64.com/nt/robocopy.html
 
 https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy
 
-## Development applications
+# Development applications
 
-### Notepad++
+## Notepad++
 Advanced text editor.
 
 https://notepad-plus-plus.org/
 
-## Tutorials
+# Modding Tutorials
+
 ## 7 Days to Die A21 XML Modding Tutorial for Beginners by Max Fox
 
 https://youtube.com/playlist?list=PLfY-5aBkL7v_C5XQ4VplyOwYsxjDZEbJm&si=vtOKj42Asb2nUhTn
