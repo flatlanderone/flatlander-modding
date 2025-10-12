@@ -29,13 +29,20 @@ Test conditional loading of mods. Replace DummyMod name value with the name of t
 
 Adds an inventory restock option to all traders without entering dev mode. Based on 0xSteel-QuestsResetOption. See the screenshots in the images folder.
 
-### 6. Skip Basics of Survival Dev Note On Spawn (new)
+### 6. Skip Basics of Survival Dev Note On Spawn
 
 Adds to inventory the Skip Basics of Survival dev note on first spawn. Reading the note completes automatically the challenges.
 
 ### 7. Tester's Delight On Spawn
 
 Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
+
+### 8. Teleport To Traders Dev 2.4.1.0-beta
+
+Adds to inventory on first spawn 2 bundles of teleports:
+
+- 5 Navezgane teleports that will teleport you to the chosen trader's front door. Use in Navezgane 2.4.
+- 5 helipad teleports that will teleport you to the center of the chosen trader's helipad. They work with any custom or rwg world.
 
 ## Third-party Mods and Modlets
 
