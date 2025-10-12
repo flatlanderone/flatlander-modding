@@ -48,7 +48,7 @@ Adds to inventory the Skip Basics of Survival dev note on first spawn. Reading t
 
 Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
 
-### 8. Teleport To Traders Dev 2.4.1.0-beta
+## 8. Teleport To Traders Dev 2.4.1.0-beta
 
 Adds to inventory on first spawn 2 bundles of teleports:
 
