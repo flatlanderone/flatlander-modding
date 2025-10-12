@@ -1,9 +1,38 @@
 # Modding utilities and resources for 7 Days to DIe (2025-10-12)
 
-TOC
+- [My Utility Modlets and Tools](#my-utility-modlets-and-tools)
+  - [1. Any Starting Trader](#1-any-starting-trader)
+  - [2. Any Starting Trader - No Desert](#2-any-starting-trader---no-desert)
+  - [3. Bigger Crafting Resources Pack On Spawn](#3-bigger-crafting-resources-pack-on-spawn)
+  - [4. Dummy Mod To Test Conditionals](#4-dummy-mod-to-test-conditionals)
+  - [5. Restock Trader Inventory](#5-restock-trader-inventory)
+  - [6. Skip Basics of Survival Dev Note On Spawn](#6-skip-basics-of-survival-dev-note-on-spawn)
+  - [7. Tester's Delight On Spawn](#7-testers-delight-on-spawn)
+  - [8. Teleport To Traders Dev 2.4.1.0-beta](#8-teleport-to-traders-dev-2410-beta)
+  - [9. Find Default Mods Folder Batch Utility](#9-find-default-mods-folder-batch-utility)
+- [Third-party Mods and Modlets](#third-party-mods-and-modlets)
+  - [0-Score](#0-score)
+  - [Reset Trader's Quests by 0xSteel](#reset-traders-quests-by-0xsteel)
+  - [LiveReloader by TianYi](#livereloader-by-tianyi)
+    - [Usage](#usage)
+  - [Skip News Screen - V2.3 b9 by w00kie n00kie](#skip-news-screen---v23-b9-by-w00kie-n00kie)
+  - [Damage Numbers by jucah.ai](#damage-numbers-by-jucahai)
+  - [Reset Trader's Quests by 0xSteel](#reset-traders-quests-by-0xsteel-1)
+  - [V2 Traders Always Open by arramus](#v2-traders-always-open-by-arramus)
+- [Other Utilities](#other-utilities)
+  - [Semantic versioning for 7 Days To Die](#semantic-versioning-for-7-days-to-die)
+    - [From Karl Giesing:](#from-karl-giesing)
+  - [GitHub Markdown to Nexusmods BBCode converter](#github-markdown-to-nexusmods-bbcode-converter)
+    - [GitHub Wiki TOC generator](#github-wiki-toc-generator)
+    - [Markdown All in One - Markdown Support for Visual Studio Code](#markdown-all-in-one---markdown-support-for-visual-studio-code)
+    - [Robocopy to automate modlet installation](#robocopy-to-automate-modlet-installation)
+  - [Development applications](#development-applications)
+    - [Notepad++](#notepad)
+  - [Tutorials](#tutorials)
+  - [7 Days to Die A21 XML Modding Tutorial for Beginners by Max Fox](#7-days-to-die-a21-xml-modding-tutorial-for-beginners-by-max-fox)
 
 # My Utility Modlets and Tools
-My growing collection of modlets I use for development and testing.
+The modlets and tools I use for development and testing.
 
 More info: https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities
 
