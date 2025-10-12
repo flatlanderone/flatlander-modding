@@ -1,12 +1,12 @@
 # Teleport To Traders Dev 2.4.1.0-beta
 
-## Contains:
+## Contents
 
 1. 2 bundles of teleports
 
-1. 5 Navezgane teleports that will teleport you to the chosen trader's front door. Use in Navezgane 2.4.
+2. 5 Navezgane teleports that will teleport you to the chosen trader's front door. Use in Navezgane 2.4.
 
-2. 5 helipad teleports that will teleport you to the center of the chosen trader's helipad. They work with any custom or rwg world.
+3. 5 helipad teleports that will teleport you to the center of the chosen trader's helipad. They work with any custom or rwg world.
 
 ## Usage
 Move the the teleport bundles from the toolbelt to your backpack and open them. Read the teleport items to trigger the teleport.
