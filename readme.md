@@ -1,5 +1,9 @@
 # Modding utilities and resources for 7 Days to Die (2025-10-12)
 
+## Table of Contents
+
+<details>
+  <summary>**Click here to show the Table of Contents**</summary>
 - [My Utility Modlets and Tools](#my-utility-modlets-and-tools)
   - [1. Any Starting Trader](#1-any-starting-trader)
   - [2. Any Starting Trader - No Desert](#2-any-starting-trader---no-desert)
@@ -28,7 +32,7 @@
   - [Notepad++](#notepad)
 - [Modding Tutorials](#modding-tutorials)
   - [7 Days to Die A21 XML Modding Tutorial for Beginners by Max Fox](#7-days-to-die-a21-xml-modding-tutorial-for-beginners-by-max-fox)
-
+</details>
 
 # My Utility Modlets and Tools
 The modlets and tools I use for development and testing.
