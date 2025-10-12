@@ -12,7 +12,7 @@
 ```
 <hr>
 
-# Utility Modlets and Batch Tools (as of 2025-10-12)
+# Utility Modlets and Batch Tools - 2025-10-12 release
 
 Github: https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities
 
