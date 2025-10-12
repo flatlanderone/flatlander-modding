@@ -3,7 +3,8 @@
 ## Table of Contents
 
 <details>
-  <summary>**Click here to show the Table of Contents**</summary>
+  <summary>Click here to show the Table of Contents</summary>
+  
 - [My Utility Modlets and Tools](#my-utility-modlets-and-tools)
   - [1. Any Starting Trader](#1-any-starting-trader)
   - [2. Any Starting Trader - No Desert](#2-any-starting-trader---no-desert)
