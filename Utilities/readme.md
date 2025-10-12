@@ -1,4 +1,6 @@
-```# Changelog
+# Changelog
+
+```
 
 ## 2025-10-12
 ### Added
@@ -6,9 +8,10 @@
 
 ## 2025-10-04
 ## Added 
-- Skip Basics of Survival Dev Note On Spawn```
-
+- Skip Basics of Survival Dev Note On Spawn
+```
 <hr>
+
 # Batch Utilities
 
 ## Find Default Mods Folder Utility
