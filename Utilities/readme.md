@@ -16,7 +16,7 @@
 - Skip Basics of Survival Dev Note On Spawn
 ```
 <hr>
-# Utility Modlets and Batch Tools - 2025-10-12 release
+# Utility Modlets and Batch Tools - 2025-10-26 release
 
 Github: https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities
 
