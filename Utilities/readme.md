@@ -45,7 +45,7 @@ Adds to inventory the Tester's Delight note on first spawn. Reading the note add
 Adds to inventory on first spawn various bundles of teleports:
 - 5 Navezgane teleports that will teleport you to the chosen trader's front door. Use in Navezgane 2.4.
 - 5 helipad teleports that will teleport you to the center of the chosen trader's helipad. They work with any custom or rwg world.
-- 6 teleports to custom traders from the *MPLogue's Custom Prefabs for 7D2D V2.0* mod.
+- 7 teleports to custom traders from the *MPLogue's Custom Prefabs for 7D2D V2.0* mod.
 
 ## 9. Find Default Mods Folder Batch Utility
 A simple batch file that creates, if necessary, and opens the default 7 Days To Die `Mods` folder in `%APPDATA%\7DaysToDie`.
