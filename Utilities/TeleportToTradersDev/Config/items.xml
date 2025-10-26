@@ -2,33 +2,34 @@
 <conditional>
 <if cond="mod_loaded('0-SCore_sphereii') and mod_version('0-SCore_sphereii') >= version(2,4,11,1222)">
 
+<!-- ***Custom traders -->
+
+<!-- MpLogue -->
+<conditional>
+<if cond="mod_loaded('MPLogue_Prefabs_7D2D_V2_0_1') and mod_version('MPLogue_Prefabs_7D2D_V2_0_1') >= version(2,0,1)">
+<include filename="MPLogue_Prefabs/items.xml"/>
+</if>
+</conditional>
+
+<!-- Fluffy-Panda-Traders -->
+<!-- <conditional>
+<if cond="mod_loaded('Fluffy-Panda-Traders') and mod_version('Fluffy-Panda-Traders') >= version(2,8,0)">
+<include filename="Fluffy-Panda-Traders/items.xml"/>
+</if>
+</conditional> -->
+
+<!-- Other traders -->
+<!-- <conditional>
+<if cond="mod_loaded('xxx') and mod_version('xxx') >= version(2,0,0)">
+<include filename="xxx/items.xml"/>
+</if>
+</conditional> -->
+
+<!-- ***Vanilla traders -->
+
 <append xpath="/items">
 
-<!-- 
-<item name="teleportquestMaster">
-	<property name="CreativeMode" value="None"/>
-	<property name="HoldType" value="21"/>
-	<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
-	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
-	<property name="Material" value="Mpaper"/>
-	<property name="CustomIcon" value="questMaster"/>
-	<property name="Stacknumber" value="50"/>  
-	<property name="EconomicValue" value="1600"/>
-	<property name="SellableToTrader" value="false"/>
-	<property class="Action0">
-		<property name="Class" value="Quest"/>
-		<property name="QuestGiven" value="q_basicSurvival"/>
-		<property name="Delay" value="0.5"/>
-		<property name="UseAnimation" value="false"/>
-	</property>
-	<property name="Weight" value="2"/>
-	<property name="ScrapTimeOverride" value="10.0"/>
-	<property name="Group" value="Special Items"/>
-</item>
-
- -->
- 
-<!-- Navezgane 2.4 bundle  -->
+<!-- *** Navezgane 2.4 bundle for vanilla traders.  -->
 
 <item name="qt_teleport_to_trader_navezgane_24_bundle">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_navezgane_24_bundle_desc"/>
@@ -57,8 +58,7 @@
 	</property>
 </item>
 
-
-<!-- Helipad bundle -->
+<!-- *** Helipad bundle for vanilla traders  -->
 
 <item name="qt_teleport_to_trader_helipad_bundle">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_helipad_bundle_desc"/>
@@ -86,18 +86,9 @@
 	</property>
 </item>
 
-<!-- Not used  -->
-<item name="qt_teleport_to_trader">
-	<property name="Extends" value="treasureQuestMaster"/>
-	<property name="SoundPickup" value="map_grab"/>
-	<property name="SoundPlace" value="map_place"/>
-	<property class="Action0">
-		<property name="QuestGiven" value="q_goToPOI"/>
-	</property>
-</item>
 
-
-<!-- Rekt  -->
+<!-- Vanilla Rekt  -->
+<!-- Navezgane teleport to front door. -->
 <item name="qt_teleport_to_trader_rekt_navezgane_24">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_rekt_desc"/>
 	<property name="CustomIcon" value="signTraderRektExteriorLarge"/>
@@ -111,6 +102,7 @@
 	</property>
 </item>
 
+<!-- Helipad teleport -->
 <item name="qt_teleport_to_trader_rekt_helipad">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_rekt_desc"/>
 	<property name="CustomIcon" value="helipad_bright"/>
@@ -124,7 +116,8 @@
 	</property>
 </item>
 
-<!-- Jen -->
+<!-- Vanilla Jen -->
+<!-- Navezgane teleport to front door. -->
 <item name="qt_teleport_to_trader_jen_navezgane_24">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_jen_desc"/>
 	<property name="CustomIcon" value="signTraderJenInterior"/>
@@ -138,6 +131,8 @@
 	</property>
 </item>
 
+
+<!-- Helipad teleport -->
 <item name="qt_teleport_to_trader_jen_helipad">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_jen_desc"/>
 	<property name="CustomIcon" value="helipad_bright"/>
@@ -151,7 +146,8 @@
 	</property>
 </item>
 
-<!-- Bob -->
+<!-- Vanilla Bob -->
+<!-- Navezgane teleport to front door. -->
 <item name="qt_teleport_to_trader_bob_navezgane_24">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_bob_desc"/>
 	<property name="CustomIcon" value="signTraderBobExteriorLarge"/>
@@ -164,7 +160,7 @@
 		<property name="QuestGiven" value="q_goToPOI_trader_bob_navezgane_24"/>
 	</property>
 </item>
-
+<!-- Teleport to helipad. -->
 <item name="qt_teleport_to_trader_bob_helipad">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_bob_desc"/>
 	<property name="CustomIcon" value="helipad_bright"/>
@@ -178,7 +174,8 @@
 	</property>
 </item>
 
-<!-- Hugh -->
+<!-- Vanilla Hugh -->
+<!-- Navezgane teleport to front door. -->
 <item name="qt_teleport_to_trader_hugh_navezgane_24">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_hugh_desc"/>
 	<property name="CustomIcon" value="signTraderHughExterior"/>
@@ -191,7 +188,7 @@
 		<property name="QuestGiven" value="q_goToPOI_trader_hugh_navezgane_24"/>
 	</property>
 </item>
-
+<!-- Teleport to helipad. -->
 <item name="qt_teleport_to_trader_hugh_helipad">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_hugh_desc"/>
 	<property name="CustomIcon" value="helipad_bright"/>
@@ -205,7 +202,8 @@
 	</property>
 </item>
 
-<!-- Joel -->
+<!-- Vanilla Joel -->
+<!-- Navezgane teleport to front door. -->
 <item name="qt_teleport_to_trader_joel_navezgane_24">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_joel_desc"/>
 	<property name="CustomIcon" value="signTraderJoelExteriorLarge"/>
@@ -218,6 +216,7 @@
 		<property name="QuestGiven" value="q_goToPOI_trader_joel_navezgane_24"/>
 	</property>
 </item>
+<!-- Teleport to helipad. -->
 <item name="qt_teleport_to_trader_joel_helipad">
 	<property name="DescriptionKey" value="qt_teleport_to_trader_joel_desc"/>
 	<property name="CustomIcon" value="helipad_bright"/>
@@ -230,7 +229,6 @@
 		<property name="QuestGiven" value="q_goToPOI_trader_joel_helipad"/>
 	</property>
 </item>
-
 </append>
 
 </if>

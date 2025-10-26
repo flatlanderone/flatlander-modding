@@ -3,7 +3,23 @@
 <conditional>
 <if cond="mod_loaded('0-SCore_sphereii') and mod_version('0-SCore_sphereii') >= version(2,4,11,1222)">
 
+<conditional>
+<if cond="mod_loaded('MPLogue_Prefabs_7D2D_V2_0_1') == false">
+
 <append xpath="entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival' or @name='ItemsOnEnterGame.GameModeSurvivalSP' or @name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">,qt_teleport_to_trader_navezgane_24_bundle,qt_teleport_to_trader_helipad_bundle</append>
+
+
+</if>
+</conditional>
+<!-- ***Custom traders -->
+
+<!-- MpLogue -->
+<conditional>
+<if cond="mod_loaded('MPLogue_Prefabs_7D2D_V2_0_1') and mod_version('MPLogue_Prefabs_7D2D_V2_0_1') >= version(2,0,1)">
+<include filename="MPLogue_Prefabs/entityclasses.xml"/>
+</if>
+</conditional>
+
 
 </if>
 </conditional>

@@ -1,0 +1,5 @@
+<RamblingMan>
+
+<append xpath="entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival' or @name='ItemsOnEnterGame.GameModeSurvivalSP' or @name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">,qt_teleport_to_trader_helipad_bundle,qt_teleport_to_trader_mplogue_bundle</append>
+
+</RamblingMan>

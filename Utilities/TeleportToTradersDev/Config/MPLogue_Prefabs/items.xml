@@ -1,0 +1,146 @@
+<ramblingman>
+
+
+<!-- ***MpLogue traders -->
+
+<append xpath="/items">
+
+<!-- *** Bundle  -->
+
+<item name="qt_teleport_to_trader_mplogue_bundle">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_mplogue_bundle_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<!-- <property name="CustomIconTint" value="66ccff" /> -->
+	<property name="CustomIconTint" value="ffff00" />
+	<!-- <property name="ItemTypeIcon" value="treasure"/> -->
+	<property name="ItemTypeIcon" value="map_trader"/>
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	
+	<property name="Material" value="Morganic"/>
+	<property name="Stacknumber" value="5"/>
+	<property name="EconomicValue" value="6000"/>
+	<property name="SellableToTrader" value="false"/>
+	<property name="Group" value="Resources"/>
+	<property name="SoundPickup" value="stone_grab"/>
+	<property name="SoundPlace" value="stone_place"/>
+	<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="qt_teleport_to_trader_rekt_mplogue,qt_teleport_to_trader_jen_mplogue,qt_teleport_to_trader_bob_mplogue,qt_teleport_to_trader_hugh_mplogue,qt_teleport_to_trader_joel_mplogue,qt_teleport_to_trader_Temple_mplogue,qt_teleport_to_trader_Wight_Multi_Trader_mplogue"/>
+		<property name="Create_item_count" value="50,50,50,50,50,50,50"/>
+	</property>
+</item>
+
+
+<!-- trader_rekt_by_MPLogue  -->
+<!-- Churchbell -->
+<item name="qt_teleport_to_trader_rekt_mplogue">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_rekt_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<property name="CustomIconTint" value="ffff00" />
+	<property name="ItemTypeIcon" value="crops"/>
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_rekt_mplogue"/>
+	</property>
+</item>
+
+<!-- trader_jen_by_MPLogue -->
+
+<item name="qt_teleport_to_trader_jen_mplogue">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_jen_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<property name="ItemTypeIcon" value="medical"/>
+	<property name="CustomIconTint" value="ffff00" />
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_jen_mplogue"/>
+	</property>
+</item>
+
+<!-- trader_bob_by_MPLogue -->
+
+<item name="qt_teleport_to_trader_bob_mplogue">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_bob_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<property name="CustomIconTint" value="ffff00" />
+	<property name="ItemTypeIcon" value="4x4"/>	
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_bob_mplogue"/>
+	</property>
+</item>
+
+<!-- trader_hugh_by_MPLogue -->
+<item name="qt_teleport_to_trader_hugh_mplogue">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_hugh_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<property name="CustomIconTint" value="ffff00" />
+	<property name="ItemTypeIcon" value="pistol"/>		
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_hugh_mplogue"/>
+	</property>
+</item>
+
+<!--  trader_joel_by_MPLogue -->
+
+<item name="qt_teleport_to_trader_joel_mplogue">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_joel_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<property name="CustomIconTint" value="ffff00" />
+	<property name="ItemTypeIcon" value="armor_iron"/>			
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_joel_mplogue"/>
+	</property>
+</item>
+
+
+<!-- trader_Temple_byMPLogue -->
+
+<item name="qt_teleport_to_trader_Temple_mplogue">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_Temple_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<property name="CustomIconTint" value="ffff00" />
+	<property name="ItemTypeIcon" value="map_civil"/>			
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_Temple_mplogue"/>
+	</property>
+</item>
+
+
+<!-- trader_Wight_Multi_Trader_by_MPLogue -->
+<!-- Teleport to helipad. -->
+<item name="qt_teleport_to_trader_Wight_Multi_Trader_mplogue">
+	<property name="DescriptionKey" value="qt_teleport_to_trader_Wight_desc"/>
+	<property name="CustomIcon" value="helipad_bright"/>
+	<property name="CustomIconTint" value="ffff00" />
+	<property name="ItemTypeIcon" value="twitch_top_killer"/>			
+	<property name="Extends" value="treasureQuestMaster"/>
+	<property name="SoundPickup" value="map_grab"/>
+	<property name="SoundPlace" value="map_place"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="q_goToPOI_trader_Wight_Multi_Trader_mplogue"/>
+	</property>
+</item>
+
+</append>
+
+</ramblingman>

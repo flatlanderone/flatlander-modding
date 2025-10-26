@@ -59,6 +59,28 @@ q_goToPOI_trader_joel_subtitle,Quest,Quest Info,,,Teleport to [DECEA3]Trader Joe
 
 q_goToPOI_trader_joel_description,Quest,Quest Info,,,Teleport to [DECEA3]Trader Joel[-],,,,,,,,,,,,,
 
+// Temple Multi-Trader quest info 
+
+q_goToPOI_trader_temple,Quest,Quest Info,,,Teleport to the [DECEA3]Temple Multi-Trader[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_temple_offer,Quest,Quest Info,,,Click Accept to teleport to the [DECEA3]Temple Multi-Trader[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_temple_subtitle,Quest,Quest Info,,,Teleport to the [DECEA3]Temple Multi-Trader[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_temple_description,Quest,Quest Info,,,Teleport to the [DECEA3]Temple Multi-Trader[-],,,,,,,,,,,,,
+
+// Wight Multi-Trader quest info 
+
+q_goToPOI_trader_Wight_Multi_Trader,Quest,Quest Info,,,Teleport to the [DECEA3]Wight Multi-Trader[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_wight_offer,Quest,Quest Info,,,Click Accept to teleport to the [DECEA3]Wight Multi-Trader[-].,,,,,,,,,,,,,
+
+q_goToPOI_trader_wight_subtitle,Quest,Quest Info,,,Teleport to the [DECEA3]Wight Multi-Trader[-],,,,,,,,,,,,,
+
+q_goToPOI_trader_wight_description,Quest,Quest Info,,,Teleport to the [DECEA3]Wight Multi-Trader[-],,,,,,,,,,,,,
+
+
+
 
 
 // quest items
@@ -79,11 +101,23 @@ qt_teleport_to_trader_helipad_bundle,items,Quest - Treasure Map,,,Helipad Telepo
 
 qt_teleport_to_trader_helipad_bundle_desc,items,Quest - Treasure Map,,,Open this bundle to obtain maps that will teleport you to the helipad of the chosen trader.,,,,,,,,,,,,,
 
+// mplogue teleport bundle
+
+qt_teleport_to_trader_mplogue_bundle,items,Quest - Treasure Map,,, Teleports for Custom Traders by MPLogue,,,,,,,,,,,,,
+
+qt_teleport_to_trader_mplogue_bundle_desc,items,Quest - Treasure Map,,,Open this bundle to obtain maps that will teleport you to a relatively safe location in the chosen trader's compound.,,,,,,,,,,,,,
+
+
 // teleport maps
 
 qt_teleport_to_trader_rekt_navezgane_24,items,Quest - Treasure Map,,,Teleport to Trader Rekt (front door),,,,,,,,,,,,,
 
 qt_teleport_to_trader_rekt_helipad,items,Quest - Treasure Map,,,Teleport to Trader Rekt (helipad),,,,,,,,,,,,,
+
+qt_teleport_to_trader_rekt_helipad,items,Quest - Treasure Map,,,Teleport to Trader Rekt (helipad),,,,,,,,,,,,,
+
+
+qt_teleport_to_trader_rekt_mplogue,items,Quest - Treasure Map,,,Teleport to Trader Rekt (MPLogue),,,,,,,,,,,,,
 
 qt_teleport_to_trader_rekt_desc,items,Quest - Treasure Map,,,Read this to teleport to Trader Rekt.,,,,,,,,,,,,,
 
@@ -91,17 +125,23 @@ qt_teleport_to_trader_jen_navezgane_24,items,Quest - Treasure Map,,,Teleport to 
 
 qt_teleport_to_trader_jen_helipad,items,Quest - Treasure Map,,,Teleport to Trader Jen (helipad),,,,,,,,,,,,,
 
+qt_teleport_to_trader_jen_mplogue,items,Quest - Treasure Map,,,Teleport to Trader Jen (MPLogue),,,,,,,,,,,,,
+
 qt_teleport_to_trader_jen_desc,items,Quest - Treasure Map,,,Read this to teleport to Trader Jen.,,,,,,,,,,,,,
 
 qt_teleport_to_trader_bob_navezgane_24,items,Quest - Treasure Map,,,Teleport to Trader Bob (front door),,,,,,,,,,,,,
 
 qt_teleport_to_trader_bob_helipad,items,Quest - Treasure Map,,,Teleport to Trader Bob (helipad),,,,,,,,,,,,,
 
+qt_teleport_to_trader_bob_mplogue,items,Quest - Treasure Map,,,Teleport to Trader Bob (MPLogue),,,,,,,,,,,,,
+
 qt_teleport_to_trader_bob_desc,items,Quest - Treasure Map,,,Read this to teleport to Trader Bob.,,,,,,,,,,,,,
 
 qt_teleport_to_trader_hugh_navezgane_24,items,Quest - Treasure Map,,,Teleport to Trader Hugh (front door),,,,,,,,,,,,,
 
-qt_teleport_to_trader_hugh_helipad,items,Quest - Treasure Map,,,Teleport to Trader Hugh (helipad)),,,,,,,,,,,,,
+qt_teleport_to_trader_hugh_helipad,items,Quest - Treasure Map,,,Teleport to Trader Hugh (helipad),,,,,,,,,,,,,
+
+qt_teleport_to_trader_hugh_mplogue,items,Quest - Treasure Map,,,Teleport to Trader Hugh (MPLogue),,,,,,,,,,,,,
 
 qt_teleport_to_trader_hugh_desc,items,Quest - Treasure Map,,,Read this to teleport to Trader Hugh.,,,,,,,,,,,,,
 
@@ -109,4 +149,18 @@ qt_teleport_to_trader_joel_navezgane_24,items,Quest - Treasure Map,,,Teleport to
 
 qt_teleport_to_trader_joel_helipad,items,Quest - Treasure Map,,,Teleport to Trader Joel (helipad),,,,,,,,,,,,,
 
+qt_teleport_to_trader_joel_mplogue,items,Quest - Treasure Map,,,Teleport to Trader Joel (MPLogue),,,,,,,,,,,,,
+
 qt_teleport_to_trader_joel_desc,items,Quest - Treasure Map,,,Read this to teleport to Trader Joel.,,,,,,,,,,,,,
+
+
+qt_teleport_to_trader_Temple_mplogue,items,Quest - Treasure Map,,,Teleport to Temple Multi-Trader (MPLogue),,,,,,,,,,,,,
+
+qt_teleport_to_trader_Temple_desc,items,Quest - Treasure Map,,,Read this to teleport to Temple Multi-Trader.,,,,,,,,,,,,,
+
+
+qt_teleport_to_trader_Wight_Multi_Trader_mplogue,items,Quest - Treasure Map,,,Teleport to Wight Multi-Trader (MPLogue),,,,,,,,,,,,,
+
+qt_teleport_to_trader_Wight_desc,items,Quest - Treasure Map,,,Read this to teleport to Wight Multi-Trader.,,,,,,,,,,,,,
+
+
