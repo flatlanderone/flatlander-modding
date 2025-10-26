@@ -1,6 +1,10 @@
 # Changelog
 
 ```
+## 2025-10-26
+### Updated
+- Teleport To Traders Dev 2.4.1.1: added support for traders from MPLogue's Custom Prefabs for 7D2D V2.0.
+
 ## 2025-10-12
 ### Added
 - Teleport To Traders Dev 2.4.1.0-beta
@@ -37,10 +41,11 @@ Adds to inventory the Skip Basics of Survival dev note on first spawn. Reading t
 ## 7. Tester's Delight On Spawn
 Adds to inventory the Tester's Delight note on first spawn. Reading the note adds an assortment of dev items.
 
-## 8. Teleport To Traders Dev 2.4.1.0-beta
-Adds to inventory on first spawn 2 bundles of teleports:
+## 8. Teleport To Traders Dev (updated)
+Adds to inventory on first spawn various bundles of teleports:
 - 5 Navezgane teleports that will teleport you to the chosen trader's front door. Use in Navezgane 2.4.
 - 5 helipad teleports that will teleport you to the center of the chosen trader's helipad. They work with any custom or rwg world.
+- 6 teleports to custom traders from the *MPLogue's Custom Prefabs for 7D2D V2.0* mod.
 
 ## 9. Find Default Mods Folder Batch Utility
 A simple batch file that creates, if necessary, and opens the default 7 Days To Die `Mods` folder in `%APPDATA%\7DaysToDie`.
