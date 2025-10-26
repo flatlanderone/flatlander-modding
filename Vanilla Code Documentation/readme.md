@@ -1,6 +1,6 @@
 
 ### ExcludeBiome
-ExcludeBiome doesnt work in treasure quests.
+ExcludeBiome doesn't work in treasure quests.
 
 Tested in 2.1.
 
