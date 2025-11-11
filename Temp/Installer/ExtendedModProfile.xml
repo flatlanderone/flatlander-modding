@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ZeroQuestsperTier" /> <!-- no spaces -->
+	<DisplayName value="Zero Quests Per Tier" />
+	<Description value="ZeroQuestsperTier." />
+	<Author value="flatlander" />
+	<Version value="2.4.1.0" />
+	<Website value="https://github.com/flatlanderone/flatlander-modding" />
+
+	<!-- ExtendedModProfile.xml online version -->
+	
+	<include filename="ModInfo.xml"/>
+	
+	<ExtendedModProfileUpdateUrl value="https://github.com/flatlanderone/mod-workshop/blob/b0d25c457a279db7032021519c8cca45cc30d675/Mods/7%20Days%20To%20Die%20Mod%20Installation%20Utility/ZeroQuestsPerTier/ExtendedModProfile.xml" />
+	<ModRepoUrl value="" />
+	<RequiredDependencies value="0-SCore_sphereii,Quartz" url="x" />
+	<OptionalDependencies value="LRS zombies" url="x" />
+    <CompatibleGameversion value="2.0,2.4" />
+	<IncompatibleGameversion value="Alpha 21" />
+	
+	
+</xml>
