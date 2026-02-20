@@ -19,7 +19,7 @@
   - [0-Score](#0-score)
   - [Reset Trader's Quests by 0xSteel](#reset-traders-quests-by-0xsteel)
   - [LiveReloader by TianYi](#livereloader-by-tianyi)
-  - [Skip News Screen - V2.3 b9 by w00kie n00kie](#skip-news-screen---v23-b9-by-w00kie-n00kie)
+  - [Skip News Screen by w00kie n00kie](#skip-news-screen---v23-b9-by-w00kie-n00kie)
   - [Damage Numbers by jucah.ai](#damage-numbers-by-jucahai)
   - [Reset Trader's Quests by 0xSteel](#reset-traders-quests-by-0xsteel-1)
   - [V2 Traders Always Open by arramus](#v2-traders-always-open-by-arramus)
@@ -98,7 +98,7 @@ This mod allows you to reload all XML, XUI, and localization files in real time 
 
 https://www.nexusmods.com/7daystodie/mods/6085
 
-## Skip News Screen - V2.3 b9 by w00kie n00kie
+## Skip News Screen by w00kie n00kie
 Simple mod that bypasses the new News Screen when loading the game
 
 https://www.nexusmods.com/7daystodie/mods/5520
