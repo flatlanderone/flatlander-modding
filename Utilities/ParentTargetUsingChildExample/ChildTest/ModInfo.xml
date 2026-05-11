@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ChildTest" /> <!-- no spaces -->
+	<DisplayName value="ChildTest" />
+	<Description value="ChildTest" />
+	<Author value="flatlander" />
+	<Version value="2.6.1.0" />
+	<Website value="https://github.com/flatlanderone/flatlander-modding" />
+</xml>

@@ -1,0 +1,7 @@
+<RamblingMan>
+
+<remove xpath="/items/item[@name='ABC' and ./property[@name='Tags' and @value='456']]"/>
+
+<remove xpath="/items/item[@name='ABC' and ./property[@name='Tags' and contains(@value, '789')]]"/>
+
+</RamblingMan>		

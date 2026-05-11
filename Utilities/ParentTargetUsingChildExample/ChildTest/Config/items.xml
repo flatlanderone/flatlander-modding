@@ -1,0 +1,26 @@
+<RamblingMan>
+
+<append xpath="/items">
+
+<item name="ABC">
+	<property name="Tags" value="123"/>
+	<property name="Material" value="MShotgunParts"/>
+	<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/stone_axePrefab.prefab"/>
+</item>
+
+<item name="ABC">
+	<property name="Tags" value="456"/>
+	<property name="Material" value="MShotgunParts"/>
+	<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/stone_axePrefab.prefab"/>
+</item>
+
+<item name="ABC">
+	<property name="Tags" value="456,789"/>
+	<property name="Material" value="MShotgunParts"/>
+	<property name="Meshfile" value="@:Other/Items/Weapons/Melee/Axe/stone_axePrefab.prefab"/>
+</item>
+
+</append>
+
+
+</RamblingMan>		
