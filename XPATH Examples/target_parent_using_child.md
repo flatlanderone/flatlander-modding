@@ -36,3 +36,6 @@ To remove the third ABC node:
 
 `<remove xpath="/items/item[@name='ABC' and ./property[@name='Tags' and contains(@value, '789')]]"/>`
 
+## Test mods
+
+https://github.com/flatlanderone/flatlander-modding/tree/main/Utilities/ParentTargetUsingChildExample
