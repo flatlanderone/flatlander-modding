@@ -1,4 +1,4 @@
-# Modding utilities and resources for 7 Days to Die (2025-10-12)
+# Modding utilities and resources for 7 Days to Die
 
 ## Table of Contents
 
