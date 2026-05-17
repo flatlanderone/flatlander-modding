@@ -120,6 +120,9 @@ https://www.nexusmods.com/7daystodie/mods/7342
 
 # Other Utilities
 
+## 7 Days to Die Map Renderer v2.0
+
+https://kui.github.io/7dtd-map/ 
 ## Semantic versioning for 7 Days To Die
 
 ### From Karl Giesing:
